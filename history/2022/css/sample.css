@@ -1,0 +1,1173 @@
+/*========================
+	GALLERY
+=========================*/
+#gallery {
+	color :orange;
+	font-family :assistant;
+	font-style :italic;
+	font-size : 48px;
+	font-weight : 600;
+	margin-bottom : 20px;
+}
+
+#gallery {
+	font-weight : 700;
+	font-size : 62px;
+
+	background-color : #e8e8e8;
+}
+
+
+#gallery h2{
+	padding : 30px;
+	margin-top : 20px;
+	text-align :center ;
+}
+#gallery img {
+	height : 320px !important;
+	max-width : 444px !important;
+}
+#gallery .reduce {
+	display :flex;
+	justify-content :space-around;
+	margin-bottom : 20px;
+}
+.material-icons {
+		font-size : 61px !important;
+}
+
+.ekko-lightbox a span {
+	color : orange;
+	font-weight : 800;
+	font-size : 65px;
+}
+.reduce img{
+	transition : all 0.8s ease;
+}
+.reduce img:hover{
+	transform :scale(1.1);
+}
+/*========================
+	HERO SECTION
+=========================*/
+#hero {
+	height : 70vh;
+	width : 100%;
+}
+/*=======================
+	SALON OFFERs
+=======================*/
+#salon-offers {
+	text-align: center;
+	background-color: pink;
+	padding: 2% 0%;
+}
+#salon-offers article{
+	color : pink;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	align-items: center;
+}
+fimages {
+	height: 260px;
+	width: 100%;
+}
+#salon-offers .h1-styles {
+    font-weight: 900;
+    font-size: 52px;
+    margin-bottom: 46px;
+		transition: all 0.5 ease-in-out;
+}
+/*========================
+			SALON HERO
+=========================*/
+#tattoo-hero {
+    height: 100vh;
+    width: 100%;
+    background: url("../images/gallery/tattoo-cover.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: sepia(1);
+    border-bottom: 26px solid black;
+}
+#tattoo-about {
+	min-height: 80vh;
+	padding: 3% 0%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#tattoo-about article {
+    height: 420px;
+    justify-content: space-around;
+    background-color: black;
+    color: #ffffffc9;
+    font-family: cursive;
+}
+/*========================
+			TATTO OFFERS
+=========================*/
+#tatto-offers article {
+	background-color:black;
+	padding: 1%;
+}
+#tatto-offers article aside {
+	margin : 5px;
+	background-color: white;
+	height: 240px;
+}
+/*========================
+			TATTOO first
+=========================*/
+#tatto-first artice {
+	background-color: black;
+	height: 300px;
+}
+/*========================
+			CONTACT US HERO
+========================= */
+#contact-hero {
+    min-height: 90vh;
+    padding: 3% 0%;
+    background: url(../images/gallery/contact-herp.jpg) #00000078 no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    position: relative;
+		color: white;
+		font-size: 26px;
+		font-weight: 800;
+}
+#contact-hero .contact-icons {
+	height: 240px;
+	justify-content: space-evenly;
+}
+#contact-hero .contact-icons a {
+	margin: 5px;
+	color: white;
+}
+#contact-hero .contact-icons img {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+}
+#hero-img {
+    position: absolute;
+    top: 30px;
+    border: 20px solid #eb5e5e;
+    box-shadow: 8px 7px 3px #ffffff82;
+}
+/*========================
+			SALON HERO
+=========================*/
+#salon-hero {
+    height: 100vh;
+    width: 100%;
+    background: url("../images/gallery/cover2.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: hue-rotate(42deg);
+    border-bottom: 26px solid black;
+}
+.hero-cont article {
+    width: 900px;
+    height: 229px;
+    background: rgb(0 0 0 / 77%);
+    color: white;
+    font-weight: 800;
+    box-shadow: 8px 10px 8px #151414;
+    padding: 2%;
+    font-style: oblique;
+    justify-content: space-evenly;
+		border-radius: 22px;
+		font-size: 62px;
+		font-family: Assistant;
+}
+.hero-cont article h2 {
+ 	text-decoration: underline;
+	text-decoration-color: #9c001b;
+	text-decoration-thickness : 12px;
+}
+.hero-cont article span {
+    text-shadow: 2px 2px 5px #ff5d5d;
+    color: #ff607c;
+    font-size: 74px;
+}
+.hero-cont article button {
+	font-size: 24px;
+	width: 200px;
+	border-radius: 15px;
+	transition: all 0.5s ease;
+	background-color: #ff607c;
+	color: white;
+	font-weight: 800;
+	outline: none;
+	height: 55px;
+	line-height: 55px;
+}
+/*========================
+	ALON ABOUT
+=========================*/
+#salon-about {
+	padding: 5% 0%;
+	background-color: #bdbdbd30;
+}
+ #salon-about .design-back {
+	 background-color: #91254a;
+ }
+#salon-about .column h4 {
+     color: #E9A7A7;
+     font-weight: 600;
+     font-size: 32px;
+     font-family: "Assistant";
+     margin-top: 25px;
+ }
+ #salon-about .centerfy-col {
+	 min-height: 413px;
+ }
+ #salon-about .centerfy-col .column {
+	 height: 100%;
+	 justify-content: space-evenly;
+ }
+ #salon-about h2 {
+	 font-family: roboto;
+	 color: #796464;
+	 font-weight: 600;
+}
+#salon-about p {
+	 margin-top: 0;
+	 margin-bottom: 1rem;
+	 font-size: 24px;
+	 text-align: center;
+	 font-family: serif;
+}
+/*========================
+			 GOLD SECTION
+=========================*/
+#gold-hero {
+    height: 100vh;
+    box-shadow: -6px 6px 20px #c31919;
+    z-index: 100;
+    margin-bottom: 10px;
+    background: url(../images/gallery/gold-jew-cover.jpg) rgb(75 1 88 / 40%) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+#gold-hero article {
+	margin: auto;
+}
+#gold-hero article h1 {
+    text-decoration: underline;
+    text-decoration-color: #9c001b;
+    text-decoration-thickness: 12px;
+    font-size: 5.6rem;
+		font-style: oblique;
+		font-family: sans-serif;
+		font-weight: 700;
+		letter-spacing: 2px;
+		color :#c1455b;
+}
+#gold-hero article span {
+    text-shadow: 4px 1px 5px #ff5d5d;
+    color: #998036;
+    font-size: 144px;
+}
+/*========================
+			GOLD SERVICESGOLD
+=========================*/
+#gold-services {
+	padding: 3% 1%;
+}
+#gold-services article {
+	overflow: hidden;
+	height: 340px;
+	transition: transform 0.5s ease-in-out;
+}
+#gold-services article aside {
+	height: 100%;
+	width: 100%;
+	transition: all 0.5s ease-in-out;
+	transform: translateY(-350px);
+	background-color: #0000006b;
+	font-style: italic;
+	font-family: sans-serif;
+	color: white;
+	font-weight: 800;
+	font-size: 15px;
+	transition: all 0.6s ease-in-out;
+}
+#gold-services article:hover aside {
+		transform: translateY(0px);
+		text-decoration: underline;
+
+}
+#gold-services article:nth-child(1){
+	background : url("../images/gallery/arm-brace.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#gold-services article:nth-child(2){
+	background : url("../images/gallery/rings.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#gold-services article:nth-child(3){
+	background : url("../images/gallery/mix-gold.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#gold-services article:hover {
+	background-size: 800px;
+}
+/*========================
+			 PRODUCTS
+=========================*/
+#gold-get-touch {
+    background: url(../images/gallery/gold-cover.png) #9c27b0 no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 87vh;
+}
+#gold-get-touch .wrapper {
+    background-color: #e91e6363 !important;
+    margin: 10px auto;
+    flex-wrap: wrap;
+}
+/*========================
+			 GOLD POROCESS
+=========================*/
+#gold-process h3 {
+	text-align: center;
+}
+#gold-process {
+	background-color:#e91e635e;
+	overflow: hidden;
+	min-height: 100vh;
+	position: relative;
+}
+ #gold-process .wrapper {
+	 width: 100%;
+	 flex-wrap: wrap;
+ }
+#gold-process article {
+    position: relative;
+    min-height: 300px;
+    width: 300px;
+    background-color: #e91e63a3;
+    color: white;
+    font-weight: 700;
+		padding: 3% 1%;
+}
+#gold-process article aside {
+    margin: 5px;
+    background-color: #ffffff57;
+    color: black;
+    height: 296px;
+		width: 296px;
+    padding: 3% 2px;
+    margin: 2px 0px;
+    text-align: center;
+}
+#gold-process article .numbers span {
+	font-family: sans-serif;
+	color: orange;
+	font-size: 46px;
+	z-index: 100;
+}
+#gold-process article .numbers {
+	position: absolute;
+	background: #00000078;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	line-height: 100px;
+	border-radius: 50%;
+	z-index: -100;
+}
+#gold-process article:nth-child(1) .numbers{
+	top : 10px;
+	left: 3px;
+}
+#gold-process article:nth-child(2) .numbers{
+	bottom : 10px;
+	right: 80px;
+}
+#gold-process article:nth-child(3) .numbers {
+    left: 80px;
+}
+#gold-process article:nth-child(4) .numbers{
+	top : 10px;
+	right: -4px;
+}
+#gold-process .circle {
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: #88087e;
+    position: absolute;
+    z-index: -500;
+}
+#gold-process #circle1 {
+	top: 109px;
+	right: -556px;
+}
+#gold-process #circle2 {
+	top: 10px;
+	left: -556px;
+	transform: rotate(180deg);
+}
+#gold-process h3 {
+    font-size: 4.5rem;
+    text-shadow: 4px 4px 2px pink;
+    font-style: oblique;
+    text-decoration: dotted;
+    color: #5a2727;
+    font-weight: 700;
+    transform: translateY(-183x);
+    transform: translateY(-40px);
+}
+ /*========================
+			 	PRODUCTS
+ =========================*/
+ #products {
+	 background-color: #e9a7a7;
+	 text-align: center;
+	 font-size: 32px;
+	 font-style: italic;
+	 color: white;
+	 font-weight: 800;
+	 line-height: 32px;
+	 letter-spacing: 1.5px;
+	 padding: 3% 0% 8% 0%;
+ }
+ #products .heads {
+	 margin : 10px;
+	 margin-bottom: 20px;
+	 font-family: sans-serif;
+	 background-color: black;
+	 width: 100%;
+	 padding: 1%;
+	 z-index: -5;
+	 transform: translateX(-10px);
+ }
+ #products .heads h3 {
+    font-size: 1.75rem;
+    color: pink;
+    padding-top: 1%;
+}
+#products .heads h2 {
+    color: #de004c;
+    font-weight: 900;
+}
+/*========================
+			SALON CONTACTS
+=========================*/
+.salon-get-in-touch {
+	min-height: 60vh;
+	padding: 5%;
+	text-align: center;
+}
+.salon-get-in-touch .wrapper {
+    width: 980px;
+    padding: 2% 2%;
+    flex-wrap: wrap;
+    background-color: #e91e63;
+}
+.salon-get-in-touch .wrapper article {
+		display: flex;
+		justify-content: space-evenly;
+		flex-direction: column;
+		align-items: center;
+		color: white;
+		font-weight: 700;
+		height: 200px;
+	}
+.salon-get-in-touch	.client-h3 {
+    transform: translate(0px,0px);
+    position: initial;
+	}
+#salon-gallery h3 {
+    background-color: #da4c7b;
+    height: 80px;
+		margin-top : 8px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 42px;
+    font-style: oblique;
+    color: white;
+    font-weight: 700;
+    line-height: 80px;
+}
+/*========================
+			TATTOO CONTACTS
+=========================*/
+#tatoo-contacts {
+	min-height: 80vh;
+	position: relative;
+	background: url("../images/gallery/ink.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#tatoo-contacts aside {
+	height: 50vh;
+	width: 100%;
+}
+#tatoo-contacts aside:nth-child(1) {
+    background-color: #6a594021;
+}
+#tatoo-contacts aside:nth-child(2) {
+    background-image: repeating-radial-gradient(black, #fefefe00 100px);
+}
+#tatoo-contacts article {
+  height: 80vh;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: #2d2d2d61;
+  transform: translate(-50%,-50%);
+}
+#tatoo-contacts .client-h3 {
+    color: #7f9ca7;
+    background: #000000;
+    top: 38px;
+}
+/*========================
+		TATTOO GAllery
+=========================*/
+ #tattoo-gallery h1 {
+    filter: sepia(1);
+		font-size: 62px;
+}
+/*========================
+	MAP_ADRESS
+=========================*/
+#map {
+	width : 100%;
+	min-height : 65vh;
+}
+#map iframe {
+	width: 100%;
+}
+#adress{
+	padding: 3% 0% 2% 0%;
+	margin-bottom:8px;
+	background-color : black;
+}
+#adress .adress,
+#adress form{
+	align-items :center;
+	text-align :center;
+	font-weight : 800 !important;
+	font-size : 24px;
+}
+#adress .adress {
+	 display :flex;
+	 justify-content : center;
+	 flex-direction : column;
+	 color : white;
+	 margin-bottom:8px;
+}
+#adress form {
+	background-color :white;
+	color : #E9A7A7;
+	padding : 2%;
+	text-transform :uppercase;
+	margin-bottom:8px;
+}
+#adress form input , textarea {
+	text-align :center;
+}
+#adress form button,
+#adress .adress button{
+	width : 160px;
+	height : 50px;
+	margin : 10px;
+	transition : all 0.5s ease-in-out;
+}
+#adress .adress button {
+	  background-color :black;
+	  color :white;
+}
+#adress form button {
+	  background-color :#E9A7A7;
+	  color :white;
+}
+
+/*========================
+	TESTIMONIAL CAROUSEL
+=========================*/
+#testo-caro {
+	width : 100%;
+	height: 371px;
+	border-left : 5px solid black;
+}
+#testo-caro .carousel-item aside {
+	display : flex !important;
+	text-align: center;
+}
+#testo-caro .carousel-indicators {
+    background-color: black;
+    margin: 15px auto;
+    width: 263px;
+    height: 48px;
+    border-radius: 88px;
+}
+#testo-caro .carousel-inner {
+	border : 5px solid #E9A7A7;
+	width : 100%;
+	height : 100%;
+}
+ #testo-caro .carousel-inner h3 {
+	 margin: -8px 15px 15px 15px;
+ }
+#testo-caro .carousel-indicators li {
+	background-color : #E9A7A7 !important;
+	width : 30px !important;
+	height : 30px !important;
+	border-radius : 50%;
+}
+#testo-caro img {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    padding: 2%;
+    margin: 20px auto;
+}
+#testo-caro .carousel-control-next-icon,#testo-caro .carousel-control-prev-icon {
+	width : 15px !important;
+	height : 15px !important;
+}
+
+
+
+
+/*================================================
+					INTER SECTION
+==================================================*/
+.int-serv article .row {
+	margin-bottom : 5px !important;
+}
+.int-serv article aside {
+	padding-top : 10px;
+}
+.int-serv article aside h2 {
+	margin : 8px;
+}
+.divider {
+	display : none;
+	height : 280px;
+	width : 80%;
+	margin: -250px auto 0px auto;
+	border : 5px solid purple;
+}
+
+
+
+h2 {
+	font-size : 3rem;
+}
+#services .serviceh1 {
+	font-size : 48px;
+	margin : 20px 0px;
+	padding-bottom : 30px;
+	font-weight : 700;
+	font-style : italic;
+}
+#contact-first h2 {
+	text-align :center;
+}
+#services h2 {
+	font-size : 32px;
+	color : white;
+	font-weight : 800;
+}
+#firstineter  {
+	padding-bottom : 2%;
+	margin-bottom : 10px;
+	text-align :center;
+	font-size: 115%;
+    font-weight: 700;
+}
+#firstineter .open {
+	background-color : #E9A7A7;
+	margin-bottom : 10px;
+	padding :1%;
+	width : 80%;
+	margin : 5px auto;
+}
+#firstineter .button button {
+	margin : 5px;
+	transition : all 0.5s ease-in-out;
+}
+#firstineter aside h4{
+	color : #E9A7A7;
+	font-weight : 600;
+	font-size : 32px;
+	font-family: "Assistant";
+	margin-top : 25px;
+}
+#firstineter img {
+	width : 98%;
+}
+#product article p {
+	height: 28px;
+}
+/*========================
+	FOOTER
+=========================*/
+footer {
+	background-color : #E9A7A7;
+}
+footer  p {
+	background-color : black;
+	min-height : 10vh;
+	line-height : 8vh;
+	color : white;
+	font-size : 18px;
+	letter-spacing : 1.5px;
+	font-style : italic;
+	text-align : center;
+}
+#quick-links {
+	text-align :center;
+	padding : 2% 2% 1% 2%;
+}
+#quick-links aside {
+	flex-direction : column;
+}
+#quick-links aside a {
+	margin : 5px;
+}
+#quick-links article ul{
+	list-style : none;
+	height : 38vh;
+	width : 80%;
+	display :flex;
+	justify-content : center;
+	transform: translate(22px, 6px);
+	flex-direction : column !important;
+}
+#quick-links article ul li{
+	width : 100%;
+	display :flex;
+	margin : 5px;
+}
+#quick-links article a{
+	margin : auto;
+}
+#quick-links a button{
+	background-color : black;
+	color : white;
+	width : 180px;
+	height : 46px;
+	border : 3px solid #E9A7A7;
+	transition : all 0.5s ease-in-out;
+}
+#quick-links aside a img {
+	width : 35px;
+	height : 35px;
+	background-color : black;
+}
+
+/*========================
+	MODAL
+=========================*/
+
+#notice-modal .modal-content, #mail-modal .modal-content {
+    border: 10px solid #E9A7A7;
+    padding: 0.5%;
+}
+
+#notice-modal .modal-header, #mail-modal .modal-header {
+    display: flex;
+    flex-direction: column;
+    height: 18vh;
+	color : white;
+    background-color: black;
+}
+
+#notice-modal .modal-body, #mail-modal .modal-body {
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+}
+
+#notice-modal .modal-footer, #mail-modal .modal-footer {
+    background-color: black;
+}
+.modal-open .modal {
+	background-color: #e9a7a7b3;
+}
+.modal-body form input,
+.modal-body form select,
+.modal-body form textarea {
+	border : 7px solid #E9A7A7 !important;
+}
+.modal-body form select {
+    width: 100%;
+    font-weight: 300;
+    font-size: 20px;
+}
+.modal-body form input {
+	min-height : 48px;
+}
+.modal-header .close,
+.modal-footer button {
+	width : 100px;
+	height : 40px ;
+	line-height : 0px;
+	text-align :center;
+	color : white;
+	font-weight : 900!important;
+	border : 3px solid red;
+}
+.modal-header .close {
+	position : absolute ;
+	top : 30px;
+	right : 30px;
+	color : black !important;
+	background-color : white !important;
+}
+.modal form button {
+	width : 180px;
+	height : 40px;
+	border-radius : 8px;
+	text-align :center;
+}
+.modal-header .close,
+.modal form button,
+.modal-footer button {
+	transition : all 0.6s ease-in-out;
+	outline : none;
+}
+#function-modal .modal-body {
+    background: #c44258;
+    color: white;
+    text-align: center;
+		font-weight: 600;
+		font-family: sans-serif;
+}
+#function-modal .modal-content {
+	background-color: black !important;
+}
+/*========================
+	HOVER ACTIVE FOCUS
+=========================*/
+
+#adress form button:hover {
+	background-color : black !important;
+	color :white !important;
+	font-weight : 500!important;
+	border : 3px solid #dd3c15 !important;
+	transition : all 0.78s ease-in-out !important;
+}
+
+#adress .adress .btn:hover {
+	background-color : white !important;
+	color :#dd3c15 !important;
+	font-weight : 500!important;
+	border : 3px solid black !important;
+	transition : all 0.78s ease-in-out !important;
+}
+#quick-links a button:hover {
+	background-color : white !important;
+	color :#dd3c15 !important;
+	font-weight : 500!important;
+	border : 3px solid black !important;
+}
+.hero-cont article button:hover {
+    background-color: #501178;
+    color: #ff607c;
+}
+/*========================
+	MEDIA QUERY
+=========================*/
+@media(max-width : 990px){
+	.int-serv article .lamination {
+    transform: translate(360px, -282px);
+	}
+	.int-serv article .printing {
+		transform: translate(0px, -280px);
+	}
+	.divider {
+		display : block;
+	}
+	#firstineter .welcome h2{
+		    font-size: 2rem;
+	}
+}
+
+@media(max-width : 991px){
+	.navbar-nav {align-items : center !important}
+	#firstCont aside .opens {
+		width : 516px;
+		transform: translateX(-201px);
+	}
+		.hero-cont article {
+	    width: 90%;
+			text-align:center;
+	}
+}
+@media(max-width : 763px){
+	.int-serv article .lamination {
+    transform: translate(0px, 0px);
+	}
+	.int-serv article .printing {
+		transform: translate(0px, 0px);
+	}
+	.divider {
+		display : none;
+	}
+	#firstineter .welcome h2{
+		    font-size: 3rem;
+	}
+	#firstineter .open {
+		flex-direction :column;
+		text-align : center;
+	}
+	#firstCont aside .opens {
+    width: max-content;
+    transform: translateX(118px);
+    text-align: center;
+	}
+	#firstCont aside .opens div:nth-child(1) {
+    text-align: center;
+    align-items: center;
+	}
+	#testimonial aside {
+		margin-bottom: 30px;
+	}
+	#firstCont article img {
+		height: 100%;
+	}
+	#hero-img {
+    position:static;
+    top: 0px;
+    border: 20px solid #eb5e5e;
+    box-shadow: 8px 7px 3px #ffffff82;
+    opacity: 0.5;
+	}
+	#contact-hero article {
+    position: absolute;
+    top: 30px;
+    margin: 0px auto;
+    justify-content: flex-start;
+    display: flex;
+    left: -30px;
+	}
+	.client-h3 {
+    transform: translateX(0%);
+    position: static;
+	}
+}
+@media(max-width : 730px){
+	#firstCont article img {
+		width : 60%;
+	}
+	#firstCont aside .opens {
+		height : auto;
+		text-align :center;
+		transform : translate(0px,65px);
+	}
+	#firstCont aside div div:nth-child(1) {
+		align-items : center;
+		color : black;
+	}
+	.hero-cont article {
+		padding: 1% 0%;
+	}
+	.hero-cont {
+		height: 90vh;
+	}
+	#gold-process h3 {
+    transform: translateY(0px);
+	}
+	#gold-hero article h1,
+	#gold-hero article span {
+		font-size: 299%;
+		text-align: center;
+	}
+}
+
+@media(max-width : 540px){
+    #quick-links article ul {transform: translate(40px, 6px); }
+	footer p { line-height : 30px;}
+	#firstCont aside .opens {
+		max-width: auto;
+		margin: 0px auto;
+		align-items: flex-start;
+		text-align: left;
+	}
+	.hero-cont article h2 {
+	    font-size: 45%;
+	}
+	.hero-cont article span {
+		font-size: 42px;
+	}
+.hero-cont article button {
+    font-size: 20px;
+    width: 166px;
+    border-radius: 11px;
+    height: 46px;
+    line-height: 41px;
+	}
+	.hero-cont {
+		height: 70vh;
+	}
+	.portfolio .port-cont {
+		margin: auto;
+		width: 350px;
+	}
+	#gold-hero {
+		height: 67vh;
+	}
+	#gold-hero article h1, #gold-hero article span {
+    font-size: 223%;
+    font-weight: 900;
+	}
+	#contact-hero .contact-icons {
+    height: 292px;
+    justify-content: space-evenly;
+    width: 254px;
+    transform: translateX(-20px);
+    background: #0000005e;
+    border-radius: 19px;
+	}
+}
+@media(max-width : 465px){
+    #quick-links article ul {
+			transform: translate(30px, 0px);
+		}
+		header .contacts .contHOld {
+			text-align: center;
+		}
+		header .contacts {
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			padding-top : 2%;
+		}
+		.socialie-icon {
+			position: inherit;
+		}
+		header .contacts .contHOld p:nth-child(1){
+				display : none;
+		}
+		#carouselControls .carousel-item .wrapper h1 {
+			font-size: 66px;
+		}
+		#tattoo-hero {
+			height: 70vh;
+		}
+		#gold-hero article h1 {
+	    font-size:42px;
+		}
+		#gold-hero article span {
+			font-size:58px;
+		}
+		#contact-hero article {
+    top: 30px;
+    justify-content: flex-start;
+    display: flex;
+    left: 4px;
+	}
+	#contact-hero .contact-icons {
+    width: 254px;
+	}
+}
+@media (max-width:420px) {
+	#contact-hero .contact-icons {
+    transform: translateX(-10px);;
+	}
+}
+@media(max-width : 335px){
+    #quick-links article ul {transform: translate(0px, 0px); }
+		#carouselControls .carousel-item .wrapper h1 {
+			font-size: 45px;
+		}
+		#carouselControls .carousel-control-next,
+		#carouselControls .carousel-control-prev {
+	    width: 63px !important;
+	    height: 55px !important;
+		}
+		#products img {
+			margin-bottom: 10px;
+		}
+		.salon-get-in-touch .wrapper {
+	    flex-direction: column;
+		}
+		.salon-get-in-touch .wrapper article {
+	    margin-bottom: 23px;
+	    border-bottom: 14px solid white;
+	    padding-bottom: 15px;
+		}
+		.portfolio h1 {
+			font-size: 54px;
+		}
+		#salon-gallery h3 {
+    	font-size: 1.75rem;
+		}
+		#salon-gallery .third{
+			line-height: 1.2;
+		}
+		#quick-links h4 {
+	    margin: 15px;
+	    font-style: oblique;
+	    font-size: 25px;
+	    text-decoration: underline;
+	    font-family: serif;
+	    font-weight: 600;
+		}
+		#salon-about {
+			text-align: center;
+		}
+		#products .products p {
+			font-size: 24px;
+		}
+}
+
+@media(max-width : 450px){
+	#firstCont article img {
+		width : 100%;
+		height: 100%;
+	}
+	#firstCont aside .opens {
+    height: auto;
+    margin: 0px auto;
+    text-align: center;
+    transform: translate(0px,0px);
+    text-align: left;
+    width: auto;
+	}
+	#firstCont h2,
+	#firstCont h4 {
+		font-size :200% !important;
+	}
+	#firstCont aside .button {
+		flex-direction :column !important;
+	}
+	#firstCont aside .opens div:nth-child(1) {
+    padding-left: 12%;
+    align-items: flex-start;
+	}
+}
+
+
+.navbar-light .navbar-toggler {
+	width : 50px !important;
+	height : 50px !important;
+	margin : 5px 13px;
+	border : none;
+	outline : none;
+}
+
+
+
+/* =============================================================== */
+/* ========================= JAVASCRIP ADDED CLASS ============= */
+/* =============================================================== */
+.add-musk-layer {
+    transform: translateY(0px) !important;
+}

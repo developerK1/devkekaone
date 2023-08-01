@@ -1,0 +1,96 @@
+<! doctype html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="EI=egde">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Hammer the rabbit</title>
+ <link rel="stylesheet"  href="rabbit/Style.css" href=”image.css”>
+ <style>
+	section {
+    position: relative;
+    margin-top: -30px;
+    background: url('rabbit/rabbitgb.jpg') no-repeat;
+    background-size: cover;
+  
+	}
+	section .homeBtn {
+		position: fixed;
+		top: 10px;
+		left : 0px;
+		background: white;
+		padding: 1.5%;
+		width: 100px;
+		text-align: center;
+		text-decoration: none;
+		margin-left: 10px;
+		border-radius: 18px;
+		color:black;
+		transition: all 0.5s ease-in;
+	}
+	section .homeBtn:hover {
+		background-color: black;
+		color : white;
+		letter-spacing: 2px;
+		font-weight: 700;
+	}
+ </style>
+</head>
+<body>
+
+<section>
+	<a href="" class="homeBtn">HOME</a>
+<div class="results">
+	<h1>YOUR SCORE IS <span class="score">0</span>
+</div>
+<div class="time">
+	<h2>TIME LEFT <span class="time-left"><input type="number" value="30" min="10" max="60"/><p></p></span> <span class="second-text">Seconds left</span></h2>
+	<div id="buttons">
+		<button class="startBtn" onclick="startGame()">PLAY</button>
+		<button class="difficult">Difficult</button>
+	</div>
+</div>
+<div id="gameLayout" class="container">
+	<article>
+		<aside><img  src="rabbit/rabbit.jpg" /></aside>
+		<aside></aside>
+		<aside></aside>
+	</article>
+	<article>
+		<aside></aside>
+		<aside></aside>
+		<aside></aside>
+	</article>
+	<article>
+		<aside></aside>
+		<aside></aside>
+		<aside></aside>
+	</article>
+</div>
+<div id="gameOver" class="container hidden">
+	<div class="gv-container">
+		<h2>LeveL <span class="gv-level">Rookie</span></h2>
+		<div class="buttonContaiuner"></div>
+		<div id="highestScores">
+			<aside><h3>THE HIGHEST SCORE IS <span></span></aside></h3></aside>
+			<article>
+				<video src="rabbit/media/try-agian.mp4" autoplay="true"></video>
+			</article>
+		</div>
+	</div>
+</div>
+</section>
+
+<script LANGUAGE="javascript" typr="text/javascript">
+	const homeHref = document.querySelector(".homeBtn");
+	const urlLength = window.location.href.length;
+	let cuttenUrl = window.location.href.slice(urlLength-6);
+	let checkUrl = cuttenUrl.includes("html");
+	
+	checkUrl ?  homeHref.href = "":homeHref.href = "../../" ;
+</script>
+<script src="rabbit/rabbit.js" ></script>
+</body>
+</html>

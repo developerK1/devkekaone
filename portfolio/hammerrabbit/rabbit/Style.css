@@ -1,0 +1,176 @@
+* {
+	margin : 10px;
+	padding : 0px;
+	box-sizing :border-box;
+}
+section {
+	width : 100%;
+	height : 100vh;
+	display : flex;
+	flex-direction : column;
+	align-items :center;
+	position : relative;
+	color : white;
+	font-weight :700;
+}
+
+#gameLayout , #gameOver {
+	background-color : #000000de;
+	display : flex;
+	flex-direction : column;
+	justify-content : center;
+	align-items :center;
+	width :420px;
+	height : 420px;
+	position :absolute;
+	bottom : 20px;
+}
+.results {
+	top : 10px;
+	margin-bottom : 0px;
+	transition : all 2s ease-in;
+}
+.time {
+	margin-top : -10px;
+	display : flex;
+	flex-direction : column;
+	align-items :center;
+}
+.startBtn , .difficult {
+	width : 160px;
+	height : 35px;
+	border-radius : 8px;
+	cursor : pointer;
+	outline : none;
+}
+article {
+	width : 400px;
+	margin : 8px;
+	height :120px;
+	display : flex;
+
+
+}
+aside {
+	width : 32%;
+	border : 2px solid  orange;
+	height :100%;
+	cursor : pointer;
+	display :flex;
+}
+
+img {
+	width : 80%;
+	margin : auto;
+	display : none;
+}
+#highestScores article , #highestScores aside {
+	width : 100%;
+}
+#highestScores h3 {
+	color : white;
+}
+#highestScores h3 span{
+	color : red;
+}
+input {
+	width : 50px;
+	height : 30px;
+}
+#gameOver {
+	display : none;
+	position : absolute;
+	bottom : -87%;
+	overflow : hidden;
+}
+
+.gv-container {
+	position : absolute;
+	top : 35px;
+	display :flex;
+	flex-direction : column;
+	align-items : center;
+	justify-content :center;
+}
+#gameLayout {
+	display: flex;
+}
+#highestScores article {
+	display :flex;
+}
+#highestScores article video{
+	margin : auto;
+	width : 160px;
+}
+#buttons {
+	display: flex;
+}
+/* ======================================================================================= */
+
+/* ================================ SCREEN RESOS ======================= */
+@media(max-width : 1004px){
+	#gameLayout {
+		transform : translateY(20px);
+	}
+}
+@media(max-width : 894px){
+	#gameLayout {
+		transform : translateY(39px);
+	}
+}
+@media(max-width : 334px){
+	#gameLayout {
+		transform : translateY(109px);
+		margin-left :42px;
+	}
+	#gameLayout article{
+		width : 360px;
+		height : 120px;
+		margin : 4px;
+	}
+	#gameOver{
+		transform: translate3d(0px, -400px, 10px);
+	}
+
+}
+
+/* ======================================================================================= */
+
+/* ================================ JAVASCRIPT EMBEDDED CLASSES ======================= */
+.show {
+	display : flex;
+}
+
+.clicked {
+	transform : scale(0.8) rotate(360deg) ;
+	opacity : 0.3;
+}
+.center {
+	position : absolute;
+	transform : translateY(150px);
+	color : white;
+	z-index:999;
+}
+.slid-up {
+	transform : translateY(-135%);
+	bottom : 50%;
+}
+
+.events{
+	pointer-events : none;
+}
+.headCount {
+	font-size : 266px;
+	font-weight : 700;
+	top : 50px;
+	text-align :center;
+	width : 100%;
+	display : none;
+	color : orange;
+	text-shadow : 8px 15px 8px white;
+	z-index : 1000;
+}
+
+.active-btn {
+	background-color : red;
+}

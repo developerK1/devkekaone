@@ -1,0 +1,76 @@
+.modal-content .modal-header {
+	font-family : assistant;
+	text-decoration : underline;
+}
+#openForm .modal-content .modal-body,
+.options .modal-content .modal-body,
+#Construction-gallery .modal-content .modal-body,
+#Tombstones-gallery .modal-content .modal-body,
+#aluminiums-gallery .modal-content .modal-body,
+#Architectural-gallery .modal-content .modal-body {
+	transform : translateX(-50%);
+	}
+@media(max-width : 396px){
+		.modal-dialog{
+		position: relative;
+		width: auto;
+		margin: 4.5rem;
+		margin-left: 6px;
+		pointer-events: none;
+	}
+	#openForm .modal-content .modal-body,
+	.options .modal-content .modal-body,
+	#Construction-gallery .modal-content .modal-body,
+	#Tombstones-gallery .modal-content .modal-body,
+	#aluminiums-gallery .modal-content .modal-body,
+	#Architectural-gallery .modal-content .modal-body {
+		transform : translateX(0%) !important;
+		width: 55%;
+	}
+	#openForm .modal-content .modal-body {
+		transform : translateX(0%) !important;
+		width: 100% !important;
+	}
+	.modal-body img {
+			width : 290px !important;
+			vertical-align : super !important;
+		}
+	.modal-header ,.modal-footer {
+		display :flex;
+		flex-direction : column;
+		justify-content : center;
+		align-items :center;
+	}
+	.modal-header .button {
+		padding: 1rem 1rem;
+		
+		font-size  : 32px;
+	}
+	.modal-header .close {
+		margin: 0rem 0rem !important;
+		font-size  : 32px !important;
+		font-weight : 700 !important; 
+	}		
+	
+}
+
+
+@media(max-width : 785px){
+	#openForm .modal-content .modal-body,
+	#Construction-gallery .modal-content .modal-body,
+	#Tombstones-gallery .modal-content .modal-body,
+	#aluminiums-gallery .modal-content .modal-body,
+	#Architectural-gallery .modal-content .modal-body {
+		transform : translateX(0%) !important;
+		width: 55%;
+	}
+	.modal-header ,.modal-footer {
+		display :flex;
+		flex-direction : column;
+		justify-content : center;
+		align-items :center;
+	}	
+	
+}
+
+

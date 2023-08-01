@@ -1,0 +1,522 @@
+ <!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="EI=egde">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Aluminius doors & windows, tombstones, architectural planning and construction">
+	<link rel="shortcut icon" type="images/png" href="favicon.png" />
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" >
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
+	<title>WIM Corporation</title>
+ <link rel="stylesheet"  href="Style.css" href=”image.css”>
+ <link rel="stylesheet"  href="modalStyle.css" href=”image.css”>
+ <link rel="stylesheet"  href="emoji.css" href=”image.css”>
+ <style>
+	#error {
+		width : 100%;
+		display :flex;
+		background-image: repeating-linear-gradient(
+		45deg, black, #ff9800 100px);
+	}
+	#error article {
+		width : 80%;
+		min-height : 80vh;
+		margin : 10px auto;
+		display :flex;
+		flex-direction : column;
+		justify-content :center;
+		align-items :center;
+		margin : auto;
+		border : 20px solid white;
+		background-color : orange;
+	}
+	#error img {
+		width : 100%;
+		height : 100%;
+	}
+	#error .img-container {
+		width : 300px;
+		height : 240px;
+		position : relative;
+	}
+	#error .img-overlay  {
+		width : 300px;
+		height : 240px;
+		top : 69px;
+		position : absolute;
+		background-color : rgba(0,0,0,0.84);
+		color : white;
+		display : flex;
+		opacity : 0;
+		border : 7px solid white;
+		transition : all 0.5s ease-in
+	}
+	#error .img-overlay a {
+		margin  :auto;
+		transition : all 0.4s ease-in;
+		color : white;
+		text-decoration : none;
+	}
+	#error .img-overlay a h3{
+		font-size : 36px;
+		font-weight : 700;
+		font-style : italic;
+		text-decoration  : underline;
+	}
+	#error h2 {
+		text-align :center;
+		padding : 2%;
+		font-style : italic;
+		text-decoration : underline yellow;
+		margin-bottom : 20px;
+		font-weight : 700;
+		text-transform : uppercase;
+		font-family : assistant;
+		font-size : 32px;
+	}
+	#error .aside {
+		display : flex;
+		align-items : center;
+		justify-content : space-evenly;
+		width : 80%;
+		margin : 18px;
+		padding-bottom : 20px;
+		border-bottom : 20px solid black;
+	}
+	#error .aside div div{
+		margin-bottom : 20px;
+	}
+	
+	#error .img-overlay:hover  {
+		opacity : 1;
+		
+	}
+	.article h3 {
+		font-size : 45px;
+		text-align : center;
+		color : #000000;
+		font-weight : 800;
+		font-style : italic;
+	}
+	#error .img-overlay a:hover {
+		border-bottom : 3px solid white;
+		color : orange;
+		font-weight : 700;
+		letter-spacing : 1.5px;
+		padding : 0.5%;
+	}	
+ 
+	.modal img {
+		width : 200px ;
+	}
+	.headdings {
+		display :flex;
+		width : 60%;
+		z-index : 1000;
+		background : rgba(0,0,0,0.63);
+		padding : 5px 2%;
+		min-height : 50vh;
+		margin : 10px auto;
+	}
+	h1 {
+		font-size : 210px;
+		color : #cf700d;
+	}
+
+	.gallery section {
+		min-height : 60vh !important;
+		width : 200%;
+		padding : 2%;
+		margin :1%;
+		background-color :black;
+	}
+	#firstErrsec .article {
+		min-height : 65vh;
+		padding : 2%;
+		width : 90%;
+		background : rgba(255,255,255,0.73);
+		color : black;
+		display : flex;
+		flex-direction : column;
+		justify-content : space-evenly;
+		align-items :center;
+		text-align :center;
+		font-weight : 700;
+		margin :10px auto;
+	}
+	.article button {
+		border-radius : 8px ;
+		background-color : orange;
+		font-weight : 700;
+		transition : all 0.6s ease-in-out;
+	}
+	.article .logo {
+	border: 3px solid black;
+		animation : spinninglogo 5s ease-in-out infinite forwards;
+	}
+	
+	.article button:hover {
+		background-color : black;
+		color : orange;
+		border : 5px solid orange;
+	}
+	.modal-footer {
+		border-bottom : 5px solid orange;
+		background-color : white !important;
+	}
+	.modal-footer button {
+		background-color :orange !important;
+		color :black !important;
+		cursor : pointer !important;
+		transition : all 0.8s ease-in;
+	}
+	.modal-footer button:hover {
+		background-color :black !important;
+		color :white !important;
+	}
+	#firstErrsec {
+		background: url(images/helmet.jpg);
+	}
+	
+	@keyframes spinninglogo{
+		0%{
+			transform : rotate(0deg)
+		}
+		100%{
+			transform : rotate(360deg)
+		}
+	}
+	
+	@media(max-width : 798px){
+		#home-gallery #firsth4 {
+			transform: translateY(10px); 
+		}
+		#homeBig-pic {
+			margin-top : 300px !important;
+		}
+		#home-gallery #container {
+			 position: absolute;
+			top: 63% !important;;
+		}
+		.headdings {
+			width : 100%;
+		}
+		#error .aside {
+			width : 100%;
+			flex-direction :column;
+		}
+	}
+	@media(max-width : 798px){
+		#home-gallery #container {
+			 position: absolute;
+			top: 68% !important;;
+		}
+	}
+	
+	@media(min-width : 396px){
+		.modal-content .modal-body img {
+			width: 96% !important;
+		}
+	}
+	
+	@media(max-width : 380px){
+		
+		.modal-content {
+			width : 114% !important;
+		}
+		.modal-body {
+			width : 55% !important;
+		}
+		.modal-body section .row {
+			margin-left : 0px !important;
+		}
+		.article h3 {
+			font-size : 32px;
+		}
+		.article .logo {
+			margin : 20px;
+		}
+		#error {
+			padding :3%;
+		}
+		.headdings h1 {
+			font-size : 100px;
+		}
+		#error article {
+			width : 100%;
+			border : none;
+		}
+		
+	}
+ </style>
+</head>
+<body>
+<header>
+	<div class="container-fluid" >
+		<div class="row">
+			<div class="contacts">
+				<p><a href="tel:0813159025">(+27)81 315 9025</a></p>
+				<p><a data-toggle="modal" data-target="#openForm">wimcorpo@gmail.com</a></p>
+				<div class="socialie-icon">
+					<a href="https://mobile.facebook.com/WIMCorp/?tsid=0.0655118292026613&source=result"><img src="social/facebook.png" alt="facebook-icon" /></a>
+					<a href="https://wa.me/+27732336546?text=I'm%20interested%20in%20your%20"><img src="social/whatsapp.png" alt="whatsAPP-icon" alt="whatsapp_icon"/></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="logo.jpg" />
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto links-cont">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">ABOUT <span class="sr-only ">(current)</span></a>
+      </li>	  
+      <li class="nav-item">
+        <a class="nav-link" href="architectural-plans.html" >ARCHITECTURAL PLANS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="construction.html">CONSTRUCTION</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link " href="tombstones.html" ">TOMBSTONES</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link " href="aluminiums.html">ALUMINIUM</a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link " href="contact-us.html" >GET IN TOUCH</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</header>
+<section class="container-fluid" id="firstErrsec">
+	<div class="row">
+		<article class="article">
+			<h3>Oops : The page you requested is not found</h3>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 flexy">
+					<h4>NAVIGATE FROM HERE</h4>
+				</div>
+				<div class="col-lg-4 col-md-4 flexy">
+					<img class="logo" src="logo.jpg" />
+				</div>
+				<div class="col-lg-4 col-md-4 flexy">
+					<a href="index.html"><button>GO BACK HOME</button></a>
+				</div>
+			</div>
+		</article>
+		<aside class="headdings">
+			<h1>4</h1>
+			<aside class="emoji col-lg-12 col-md-12">
+				<div class="cap"></div>
+				<div class="capbottom"></div>
+				<div class="face">
+					<div class="eyes">
+						<div class="marbles">
+							<div class="dot"></div>
+						</div>
+						<div class="marbles">
+							<div class="dot"></div>
+						</div>
+					</div>
+					<div class="glasses">	
+						<div class="glasseye"></div>
+							<div class="stroke"></div>
+						<div class="glasseye"></div>
+					</div>
+				</div>
+			</aside>
+			<h1>4</h1>
+		</aside>
+	</div>
+</section>
+
+<section id="error">
+	 <article>
+		 <div class="aside">
+			 <div class="col-lg-6 col-md-6">
+			 <h2>Construction</h2>
+				 <div class="flexy">
+					<aside class="img-container">
+						<img src="images/houses/er-image.jpg" alt="built-house" />
+					</aside>
+					<div class="img-overlay">
+						<a href="construction.html"><h3>View Page</h3></a>
+					</div>
+				 </div>
+			 </div>
+			 <div class="col-lg-6 col-md-6">
+			 <h2>Tombstones</h2>
+				 <div class="flexy">
+					<aside class="img-container">
+						<img src="images/tombstones/image-new.jpg" alt="built-house" />
+					</aside>
+					<div class="img-overlay">
+						<a href="tombstones.html"><h3>View Page</h3></a>
+					</div>
+				 </div>
+			 </div>
+		 </div>
+		 <div class="aside">
+			 <div class="col-lg-6 col-md-6">
+			  <h2>Architectural</h2>
+				 <div class="flexy">
+					<aside class="img-container">
+						<img src="images/architecturals/gallery/architectural-7.jpg" alt="built-house" />
+					</aside>
+					<div class="img-overlay">
+						<a href="architectural-plans.html"><h3>View Page</h3></a>
+					</div>
+				 </div>
+			 </div>
+			 <div class="col-lg-6 col-md-6">
+			 <h2>Aluminiums</h2>
+				 <div class="flexy">
+					<aside class="img-container">
+						<img src="images/alumi-window.jpg" alt="built-house" />
+					</aside>
+					<div class="img-overlay">
+						<a href="aluminiums.html"><h3>View Page</h3></a>
+					</div>
+				 </div>
+			 </div>
+		 </div>
+	 </article>
+ </section>
+
+<section id="home-cont4" >
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-lg-6">
+				<form role="form" method="POST" class="p-10"  action="mail/contact_us.php">
+					<div class="form-group">
+						<label for="inputEmail">From <span style="color: #FF0000">*</span></label>
+                        <input type="text" name="fromEmail" id="fromEmail" class="form-control"  placeholder="info@yourEmailAdress.com / (+27)88 888 8888"  required >
+					</div>
+					<div class="form-group">
+						 <label for="inputPassword">Subject <span style="color: #FF0000">*</span></label>
+						 <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" required>
+					</div>	
+					<div class="form-group">
+						<label for="name">Message</label>
+						<textarea  id="message" name="message" class="form-control" placeholder="Message" required ></textarea>
+					</div>
+					<button type="submit" class="btn btn-default" name="sendMailBtn">Submit</button>
+				</form>
+			</div>
+			<div class= "col-lg-6 col-md-12 adress">
+				<h3> Address </h3>
+				<a href="https://www.google.co.za/maps/dir//WIM+Corporation+PTY+Ltd,+City+Square,+29+Dr+Nelson+Mandela+Dr,+Lichtenburg,+2740/@-26.1463606,26.1574132,17.41z/data=!4m8!4m7!1m0!1m5!1m1!1s0x1e97d9beb5f0dd35:0x5842a83e22116757!2m2!1d26.1596449!2d-26.1467905"><button type="submit" class="btn btn-default">DIRECTIONS</button></a>
+				<p>29 Dr Nelson Mandela drive</p>
+				<p>Lichtenburg</p>
+				<p>City Square 471</p>
+				<p>Shop 5</p>
+				<p>2740</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="socilLinks" class="flexy">
+	<article>
+		<a href="https://mobile.facebook.com/WIMCorp/?tsid=0.0655118292026613&source=result"><img src="social/facebook.png" alt="" /></a>
+		<a href="https://wa.me/+27785080874?text=I'm%20interested%20in"><img src="social/whatsapp.png" alt="" /></a>
+		<a href="tel:+27813159025"><img src="social/call.png" alt="" /></a>
+	</article>
+</section>
+
+
+<!-- /.modal -->
+<div class="modal fade" id="openForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog"> 
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"> &times; </button>
+			<h4 class="modal-title" id="myModalLabel">EMAIL US</h4>
+		</div>
+			<div class="modal-body">
+				<div class="row">
+			<div class="col-lg-12 col-lg-12">
+				<form role="form" method="POST" class="p-10"  action="mail/contact_us.php">
+					<div class="form-group">
+						<label for="inputEmail">From <span style="color: #FF0000">*</span></label>
+                        <input type="text" name="fromEmail" id="fromEmail" class="form-control"  placeholder="info@yourEmailAdress.com / (+27)88 888 8888"  required >
+					</div>
+					<div class="form-group">
+						 <label for="inputPassword">Subject <span style="color: #FF0000">*</span></label>
+						 <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" required>
+					</div>	
+					<div class="form-group">
+						<label for="name">Message</label>
+						<textarea  id="message" name="message" class="form-control" placeholder="Message" required ></textarea>
+					</div>
+					<button type="submit" class="btn btn-default" name="sendMailBtn">Submit</button>
+				</form>
+			</div>
+			</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close </button>
+			</div>
+	</div><!-- /.modal-content -->
+	</div>
+</div>
+
+<footer >
+	<div class="container">
+		<div class="row">
+			<div class="wrap">
+				<aside>
+					<h3>CONTACT INFO</h3>
+					<h4>Head Office</h4>
+					<div >
+						<p><a href="tel:+27813159025">Phone: </a></p>
+						<span><a href="tel:+27813159025"><img class="icon" src="social/tell.png"></a></span>
+					</div>
+					<div >
+						<a href="https://wa.me/+27813159025?text=I'm%20interested%20in%20"><p>WhatsApp:</p></a>
+						<a href="https://wa.me/+27813159025?text=I'm%20interested%20in%20"><span><img class="icon-whats" src="social/whatsapp.png"></span></a>
+					</div>
+					<div >
+						<p><a data-toggle="modal" data-target="#openForm">Email</a></p>
+						<a data-toggle="modal" data-target="#openForm"><span><img class="icon" src="social/email.png"></span></a>
+					</div>
+				</aside>
+				<article>
+					<h3>QUICK LINKS</h3>
+					<div class="footer-links">
+						<ul class="links-cont">
+							<li><a href="architectural-plans.html" >ARCHITECTURAL</a></li>						
+							<li><a href="construction.html">CONSTRUCTION</a></li>
+							<li><a href="tombstones.html">TOMBSTONES</a></li>
+							<li><a href="aluminiums.html">ALUMINIUM</a></li>
+							<li><a href="contact-us.html">CONTACT US</a></li>
+						</ul>
+					</div>
+				</article>	
+			</div>
+		</div>
+	</div>
+ </footer>
+ <div class="footer-credits">
+	<p>&COPY <span class="year"></span> ALL RIGHT RESERVED </p>
+	<p> <span class="design">Design by  <a href="http://maobatechsolutions.com">KeKaone...</a></span></p>
+ </div>
+</main>
+
+<!--- JQUERY =========================== -->
+<script src="jquery.js"></script>
+<!-- BOOTSTRAP ========================= -->
+<Script src="bootstrap/js/bootstrap.min.js"></script>
+<!---- Customized JAvascript =========== -->
+<script src="costumized.js"></script>
+</body>
+</html>

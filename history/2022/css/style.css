@@ -1,0 +1,699 @@
+
+/*  ==================BASICS ====================== */
+.m {
+	font-weight : 800;
+	color : red;
+}
+.d {
+	font-weight : 800;
+	color : blue;
+}
+.centerfy {
+	display :flex;
+	justify-content : center;
+	align-items : center;
+}
+.centerfy-col {
+	display :flex;
+	justify-content : center;
+	align-items : center;
+	flex-direction: column;
+}
+.hamburger {
+  width: 63px;
+  height: 63px;
+  position: absolute;
+  top: 7px;
+  right: 20px;
+	justify-content: space-evenly;
+}
+.hamburger .lines {
+	width: 58px;
+	height: 10px;
+	border-radius: 2px;
+	background-color: black;
+	transition: all 0.5s ease-in;
+}
+/* ===============  portfolio    ======================== */
+#portfolio {
+	background-color: black;
+}
+.portfolio .port-cont {
+  overflow: hidden;
+}
+.portfolio .port-cont img {
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+  width: 100%;
+}
+.portfolio .port-cont img:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  cursor: zoom-in;
+}
+.portfolio h1 {
+	 font-size: 4.5rem;
+	 text-shadow: 4px 4px 2px pink;
+	 font-style: oblique;
+	 text-decoration: dotted;
+	 color: #5a2727;
+	 font-weight: 700;
+}
+.portfolio .images {
+	padding-bottom: 50px;
+}
+/* ===============  Header    ======================== */
+header {
+    background-color: black;
+    color: white;
+    position: relative;
+    box-shadow: 1px 11px 2px #a038388c;
+    z-index: 10;
+}
+ header .contacts {
+	 display :flex;
+	 color :red;
+	min-height : 45px;
+ }
+.h1-styles {
+	color: white;
+  font-size: 92px;
+  font-family: Assistant;
+  font-style: italic;
+  box-shadow: 10px 20px 12px 1px #00000073;
+  background-color: #00000017;
+  padding: 3% 0%;
+  text-align: center;
+}
+ main {
+	 padding : 0px;
+	 margin : 0px ;
+	 box-sizing : border-box;
+ }
+ .socialie-icon {
+	 height : 100%;
+	 padding-bottom : 10px;
+	 margin : 5px;
+	 position : absolute;
+	 right : 20px;
+ }
+.socialie-icon img {
+	 width : 30px;
+	 height : 30px;
+	 margin-right : 3px;
+	 border : 1px solid red;
+	 cursor : pointer;
+ }
+a:hover {
+	cursor : pointer !important;
+ }
+.navbar {
+	background-color : #e91e63 !important ;
+	position: relative;
+ }
+nav ul li {
+	width : 180px;
+	height : 50px;
+	display :flex;
+}
+nav ul li a{
+	width : 100%;
+	height : 100%;
+	transition :all 0.3s ease-in;
+	margin : auto;
+	cursor : pointer !important;
+}
+.navbar-toggler-icon {
+	 background-color : #d6c2c2 !important;
+	margin :2px !important;
+ }
+ .navbar-toggler {
+	  margin-bottom : 5px !important;
+ }
+  form button {
+	 border:2px solid black !important;
+	 color :black !important;
+	 font-weight : 700 !important;
+  }
+ form button:hover {
+	  background-color :black !important;
+	 color :red !important;
+	 border-radius : 8px ;
+	transition : 0.6s;
+	border : none;
+ }
+ ul li a {
+	 color : black !important ;
+	 text-align : center;
+	  color :white !important;
+	  font-weight : 700;
+ }
+
+ .at-page {
+	 background-color :black !important;
+	 color :red !important;
+	 border-radius : 8px ;
+	 transition :5s;
+ }
+.openn {
+	visibility: none;
+}
+.activeH  {
+	 background-color :black !important;
+	 color :red !important;
+	 border-radius : 8px ;
+	transition : 0.6s;
+	margin : 2px;
+}
+.remove-events {
+	pointer-events: none !important;
+}
+.contact-icon {
+	width : 75px;
+	height : 75px;
+	margin : 0px auto;
+}
+.navbar-brand img {
+	background-color : blak;
+	width : 140px;
+	height : 60px;
+	border : 3px solid black;
+}
+#carouselControls .carousel-control-next, #carouselControls .carousel-control-prev {
+	width:100px !important;
+	height:80px !important;
+	background-color : #e91e63 !important;
+	top : 50%;
+	transform : translateY(-50%)
+}
+#carouselControls .carousel-control-next, .carousel-control-prev {
+	width:100px !important;
+	height:80px !important;
+	top : 50%;
+	transform : translateY(-50%)
+}
+.appointment-btn a{
+	border-bottom: 3px solid #4169e1;
+	background-color: #2ebde3;
+	color: black;
+	font-weight: 700;
+	border-radius: 8px;
+}
+/* ============================= COLOURS ================================== */
+.clr1 {
+	background-color  :#E9A7A7 !important;
+	color : black;
+}
+.secCol {
+
+}
+.terCol {
+
+}
+
+ /*============================= SILDING SECTION / CAROUSEL --------- */
+
+#carouselControls .carousel-inner {
+	height :95vh !important;
+	border-bottom : 20px solid black;
+
+}
+#carouselControls .slide-Item1 {
+    background: url("../images/header-background-1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+#carouselControls .slide-Item2 {
+	background : url("../images/gallery/jewellery.png") no-repeat;
+	background-size : cover;
+	background-position : center center;
+ }
+#carouselControls .slide-Item3 {
+	background : url("../images/gallery/ink.jpg") no-repeat;
+	background-size : cover;
+	background-position : center center;
+}
+.slide-Item1 ,.slide-Item2 , .slide-Item3{
+	 height : 100% ;
+	filter : brightness(75%);
+}
+#carouselControls .wrapper {
+	width : 100%;
+	height : 100%;
+}
+.back-design {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 170px;
+    background-color: #e91e63;
+    transform: translateY(-50%);
+    z-index: -10;
+    border-radius: 0px 0px 29px 0px;
+}
+
+/* ==============================================================================
+																	BUTTONS
+ ============================================================================== */
+ button {
+	width : 160px;
+	height : 40px;
+	border-radius : 8px;
+	outline : none;
+	transition: all 0.8s ease-in-out;
+ }
+ .button button{
+	border: none;
+	color :white;
+	margin-top : 20px;
+	transition : all 0.4s ease-in;
+ }
+ .button button:nth-child(1){
+	background-color : #E9A7A7;
+ }
+ .button button:nth-child(2){
+	background-color : black;
+ }
+ #services button {
+	 background-color: black;
+	 color : #e91e63;
+	 border : 2px solid #e91e63;
+ }
+/* ==============================================================================
+													ELEMNT TAGS AND HEADDINGS
+ ============================================================================== */
+
+h2 {
+	font-size : 3rem;
+}
+#services .serviceh1 {
+	font-size : 48px;
+	margin : 20px 0px;
+	padding-bottom : 30px;
+	font-weight : 700;
+	font-style : italic;
+}
+#contact-first h2 {
+	text-align :center;
+}
+#services h2 {
+	font-size : 32px;
+	color : white;
+	font-weight : 800;
+}
+#firstCont aside h3 {
+	font-weight : 700;
+	letter-spacing : 1.2px;
+}
+#firstCont aside .column h4{
+	color : #E9A7A7;
+	font-weight : 600;
+	font-size : 32px;
+	font-family: "Assistant";
+	margin-top : 25px;
+}
+#product article p {
+	height: 28px;
+}
+/* ==============================================================================
+													FLEXING SECTION MANUALLY
+ ============================================================================== */
+#firstCont aside div div:nth-child(1),
+#services aside {
+	display :flex;
+	align-items :center;
+	justify-content :center;
+}
+
+ /* ================== SECTIONS BY IDs ========================== */
+
+#contact-first {
+	background-color : grey;
+}
+#services {
+	background-color : #eaeaea;
+	text-align :center;
+	min-height : 85vh;
+	padding-top : 30px;
+	padding-bottom : 30px;
+}
+#testimonial {
+	min-height : 70vh;
+	padding: 35px 0px;
+	width: 100%;
+}
+#product {
+		text-align :center;
+}
+
+
+#carouselControls .carousel-item .wrapper  {
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+#carouselControls .carousel-item .wrapper .content {
+	height: 300px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content:space-around;
+	align-items: center;
+}
+#carouselControls .carousel-item .wrapper h1 {
+    color: white;
+    font-size: 92px;
+    font-family: Assistant;
+    font-style: italic;
+    box-shadow: 10px 20px 12px 1px #00000073;
+    background-color: #00000017;
+    padding: 3% 0%;
+		text-align: center;
+}
+.read {
+    width: 180px;
+    border-radius: 12px;
+    height: 52px;
+    outline: none;
+    background-color: #f3133ca3;
+    color: white;
+    font-weight: 700;
+    border: none;
+    transition: all 0.5s ease;
+}
+/* ==============================================================================
+						4										SUB SECTIONS
+ ============================================================================== */
+#firstCont article {
+	position : relative;
+}
+#firstCont aside {
+	font-size : 115%;
+	font-weight :700;
+	letter-spacing :1.5px;
+	transform : translateY(-80px);
+}
+#firstCont aside .column,#firstCont aside .button {
+	padding-left : 60px;
+}
+#firstCont aside .column,#firstCont aside .button button{
+	margin: 8px;
+}
+#firstCont aside .opens{
+	background-color : #E9A7A7;
+	color :white;
+	min-height: 253px;
+	transform : translateX(-100px);
+}
+
+#firstCont aside div div:nth-child(1) {
+	flex-direction :column;
+	align-items :flex-start;
+}
+
+.opening-hours li{
+	list-style : none;
+	font-size : 20px;
+}
+#services aside{
+	flex-direction : column;
+	justify-content : space-around;
+	font-family :Sans-serif;
+	font-style : italic;
+	letter-spacing : 1.3px;
+	height: 402.8px;
+	overflow: hidden;
+	position: relative;
+}
+#services .musk-layer {
+    height: 98%;
+    width: 100%;
+    margin: auto;
+    background-color: #000000cc;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+		transition: all 0.6s ease-in;
+    transform: translateY(403px);
+}
+#services .musk-layer div {
+    justify-content: space-evenly;
+    height: 250px;
+    width: 200px;
+    margin: auto;
+    background-color: #df4236;
+}
+.client-h3 {
+    margin: 30px auto 50px auto;
+    tansform: inherit;
+    font-family: Assistant;
+    font-style: italic;
+    font-size: 45px;
+    font-weight: 600;
+    color: #d81b60;
+    display: inline-block;
+    text-align: center;
+    background: #000000;
+    transform: translateX(-50%);
+    position: relative;
+    padding: 2%;
+    left: 50%;
+    border-radius: 8px;
+    text-shadow: -1px 4px 3px white;
+    letter-spacing: 2px;
+}
+.small-head {
+    font-family: Assistant;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffedf3;
+    text-align: center;
+    text-shadow: -1px 4px 3px black;
+    letter-spacing: 2px;
+}
+#services .pink{
+	background-color : #e91e63;
+	color : white;
+}
+#services .black{
+	background-color : black;
+	color : #E9A7A7;
+}
+#product article {
+	background-color :  #E9A7A7;
+}
+.products-list {
+	display : flex;
+	width : 100%;
+}
+
+
+.products-list aside {
+	background-color : #eaeaea;
+	width : 25%;
+	margin : 2.5px;
+}
+
+.form-control {
+	border-color : #afafaf !important;
+}
+/* =4=============================================================================
+													ANCHHORS
+ ============================================================================== */
+#testimonial button{
+	background-color : yellow!important;
+	color :white !important;
+}
+/* =4=============================================================================
+													IMAGES
+ ============================================================================== */
+ #firstCont article img {
+     height: 75%;
+     border: 16px solid #eec27d;
+     backdrop-filter: sepia(13);
+     box-shadow: 15px 16px 9px #000000c2;
+     filter: contrast(1.2);
+ }
+ #salon-about img {
+     border: 16px solid #e0dbdd;
+     box-shadow: 15px 16px 9px #000000c2;
+ }
+#services span{
+	display : none !important;
+}
+#services .pink img{
+	border-bottom : 12px double black;
+}
+#services .black img{
+	border-bottom : 12px double #E9A7A7;
+}
+#product .thmb {
+	width : 100px;
+}
+#product article p img{
+	width : 50px;
+	background : transparent;
+}
+.img-deco img {
+	 width: 100%;
+	 transform: rotate(180deg);
+	 height: 139px;
+}
+#products img {
+	border-radius: 18px;
+	margin: 20px;
+}
+.salon-get-in-touch img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+		transition: all 0.5s ease-in-out;
+}
+#tattoo-about img {
+	width: 100%;
+	height: 120%;
+  box-shadow: 7px 10px 35px #160d0d;
+}
+#salon-offers article aside img {
+    width: 249px;
+    transform: translateY(40px);
+}
+#logo-divider {
+	background-image: repeating-linear-gradient(45deg, #ff2ce19e, #ec333fc7 100px);
+}
+/* ==============================================================================
+													SPANS
+ ============================================================================== */
+.makeBla {
+	color :black;
+	font-weight : 800;
+}
+.makepin {
+	font-weight : 800;
+	color : #E9A7A7;
+}
+
+/* ==============================================================================
+												ACTIVE  HOVER  FOCUS
+ ============================================================================== */
+button:hover {
+	letter-spacing: 2px;
+}
+.button button:nth-child(1):hover{
+	background-color : black;
+	letter-spacing :1.3px;
+	border-right : 3px solid #E9A7A7;
+}
+.button button:nth-child(2):hover{
+	background-color : #E9A7A7;
+	letter-spacing :1.3px;
+	border-left : 3px solid black;
+ }
+
+.read:hover {
+	background-color: black;
+	color :white;
+	font-weight: 800;
+}
+#services button:hover {
+	background-color:#e91e63 ;
+	color : white;
+	font-weight: 800;
+	border : 2px solid white;
+}
+.form-control:focus {
+	border-color : #E9A7A7 !important;
+	box-shadow :0 0 0 0.2rem #80808003 !important;
+}
+button:active {
+		opacity: 0.5;
+}
+.line1 {
+    transform: rotate(45deg) translate(16px, 20px);
+}
+.line2 {
+	transform: rotate(45deg) translate(-850px, 880px) scale(2);
+}
+.line3 {
+    transform: rotate(-45deg) translate(8px, -12px);
+}
+.salon-get-in-touch img:hover {
+	border : 5px solid black;
+	transform: scale(0.8);
+}
+.salon-get-in-touch img:active {
+	border : 8px solid  #e91e63;
+	transform: scale(0.9);
+}
+.salon-get-in-touch article a:nth-child(2):hover p {
+	letter-spacing: 2px;
+	color :white;
+}
+nav ul li a:hover {
+	background: pink !important;
+	color :black !important;
+	font-weight: 800 !important;
+}
+
+
+
+
+
+
+
+
+
+/* ================================
+				ADDED CSS COUNTER
+ =============================== */
+#counter {
+	background-color: black;
+	height: 100vh;
+	width: : 100%;
+	border : 10px solid  #e01c3f;
+	display: flex;
+}
+#counter div  {
+	width: 100%;
+	margin: auto;
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+#counter h1 {
+	 font-size: 2.5rem;
+	 color: white;
+	 font-weight: 800;
+	 letter-spacing: 3px;
+	 font-family: serif;
+	 text-decoration: underline;
+}
+#demo {
+    margin: auto;
+    font-size: 62px;
+    font-family: fantasy;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    color: #ea2e4f;
+		text-shadow: 3px 0px 4px #ffeb3b;
+}
+@media(max-width:555px) {
+	#counter h1 {
+		font-size: 1.8rem;
+	}
+	#demo {
+		font-size: 43px;
+	}
+	#counter {
+		height: 60vh;
+	}
+	.navbar-brand img{
+		width: 100px;
+		height: 55px;
+	}
+}

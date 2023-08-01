@@ -1,0 +1,2207 @@
+
+
+/* ====================== BASSIC SSTYLING  ========================= */
+.carousel-inner {
+	min-height :80vh !important; 
+	border-bottom : 20px solid black;
+	
+} 
+ .slide-Item1 {
+	background : url("images/construction-cover.jpg");
+ }
+  .slide-Item2 {
+	background : url("wimconstr.jpg") no-repeat;
+	filter : brightness(90%);
+ }
+.slide-Item4 {
+background : url("images/AZ/withYou.jpg") no-repeat;
+
+}
+ .slide-Item1 ,.slide-Item2, .slide-Item3, .slide-Item4 {
+	 background-size : cover;
+	 height : 100% ;
+	 background-repeat : no-repeat;
+	 background-position :center center;
+}.modal img {
+	width : 200px ;
+}
+ #carosel-wrapper  {
+	 display :flex;
+	 align-items :center ;
+	 flex-direction :column;
+	 justify-content :center;
+ }
+.contacts {
+	display : flex;
+	min-height : 10vh;
+	width : 100%;
+	color :black;
+	background-color : white;
+	padding : 2px  2px 2px 26px;
+	position :relative;
+	align-items :center;
+	border : 2px solid orange;
+}
+.contacts p {
+	margin : 10px;
+	cursor : pointer;
+}
+
+.socialie-icon img {
+	height : 35px;
+	width : 35px;
+	border-radius : 50%;
+	margin : 8px;
+	border : 1px solid orange;
+	padding : 2%;
+	background-color :black;
+	cursor : pointer;
+	transition : border 0.2s ease-in-out;
+}
+footer aside p , footer aside  a , footer aside img {
+	 cursor :pointer;
+	 color : blue;
+ }
+.navbar-brand img{
+	width : 100px;
+	height: 100px;
+}
+.navbar {
+	background-color : black !important;
+	border : 3px solid black;
+	padding-left : 26px;
+}
+.navbar-toggler {
+	border :2px solid orange !important;	
+	background-color : white !important;
+}
+.navbar-toggler:hover {
+	background-color : orange !important;
+	border : 2px solid white !important;
+}
+.navbar ul{
+	padding-left : 26px;
+}
+.navbar ul li a{
+	font-weight : 600 !important;
+	color:black !important;
+	text-align :center;
+	padding : 10px;
+	margin : 8px;
+	min-width : 160px;
+	border-radius : 15px;
+	border : 2px solid white !important;
+	background-color :orange !important;
+}
+.navbar ul li a:hover {
+	background-color : black !important;
+	color : white !important;
+	transition : 0.7s;
+	border-radius : 0px;
+	letter-spacing : 2px;
+	border : 2px solid orange !important;
+}
+form button {
+	border : 1px solid white !important;
+	color :white !important;
+	height : 50px;
+	width : 180px;
+	background-color : orange !important;
+}
+.flexy {
+	display :flex;
+	justify-content : center;
+	align-items :center;
+}
+.middle {
+	margin :auto;
+}
+.middle-holder {
+	width : 100%;
+	display :flex;
+}
+.cero-center {
+	width : 100%;
+	height :80vh;
+}
+.carosel-wrapper {
+	display :flex;
+	width : 100%;
+	height : 100%;
+	justify-content :center;
+}
+.carousel-item h2 {
+	color :white;
+	padding : 5px 50px;
+	margin : 10px 0px 20px 0px;
+	background-color : orange;
+}
+.slide-Item4 h1 {
+	padding : 5px;
+	background-color : #274b4eb3;
+}
+.carousel-item h1 {
+	color :white;
+	font-size : 62px;
+	letter-spacing : 2px;
+	font-weight : 700;
+}
+button , .button{
+	width : 250px;
+	height : 60px;
+	cursor : pointer;
+	border-radius : 60px;
+}
+.carousel-control-prev, .carousel-control-next {
+	width : 100px;
+	height : 80px;
+	position : absolute;
+	top : 50%;
+	background-color :black;
+}
+.carousel-control-prev{
+	transform :translateY(-50%);
+	left : 0px;
+}
+.carousel-control-next{
+	transform :translateY(-50%);
+	right : 0px;
+}
+
+ /* ================================================================= */
+ 
+ /* =================== HEAD|I|NGS AND PARAGRAPS =============================== */
+#home-cont1 h2 {
+	font-weight : 700;
+	font-size : 38px;
+	color :orange;
+}
+#construct-cont1 h3 {
+	margin-bottom : 35px;
+}
+#home-cont1 .container {
+	padding-left : 50px !important;
+	padding-right : 50px !important;
+	padding-bottom : 20px !important;
+}
+#home-cont1 p {
+	font-size : 24px;
+	font-style : italic;
+	font-weight : 400;
+}
+#variety aside p{
+	padding : 5%;
+	text-align :left;
+	background-color : orange;
+ }
+#home-cont2 h2 {
+	font-family : castellar;
+	font-weight : 800;
+	box-sizing : content-box;
+	font-size : 36px;
+	letter-spacing : 8px;
+	background-color :white;
+	padding-bottom : 2rem;
+	margin-bottom : 4rem;
+	margin-top : 5rem;
+}
+#home-cont3 h3 {
+	padding-bottom : 5%;
+}
+#home-cont3 p {
+	padding : 0px 3%;
+	text-align :center;
+}
+#tombs-cont2 h1, #tombs-cont1 h2 , #tombs-contact h3 {
+	text-align :center;
+	margin : 30px 30px 8px 30px;
+	padding : 30px 30px 0px 30px;
+	font-family : 'Playfair Display',Georgia,"Times New Roman",serif;
+	letter-spacing : 1.3px;
+}
+#tombs-cont1 h2 {
+	font-size : 62px;
+	background-color : rgba(0,0,0,0.7);
+	padding: 5px;
+	transform: translateX(-1400%);
+	animation : rotateH2 2s ease-in forwards 1s;
+
+}
+#motto .motto aside h2 {
+	padding : 1%;
+	font-family : assistant;
+	font-weight : 700;
+	font-size : 42px;
+	font-style : italic;
+}
+#homeBig-pic h1 {
+	color :white; 
+	font-weight: 700;
+	font-family : assistant;
+	letter-spacing : 1px;
+	font-size : 52px;
+	text-align:center;
+	padding:1%;
+	margin-bottom : 1.5%;
+	background-color: rgba(0,0,0,0.7);
+}
+#tombs-contact h2 ,#construct-cont4 {
+	color :orange;
+	font-family :assistant;
+	font-style :italic;
+	font-size : 48px;
+	font-weight : 600;
+	margin-bottom : 20px;
+}
+
+#home-gallery h4{
+	margin: 30px;
+	text-align :center;
+	font-size : 38px;
+	font-weight : 400;
+	font-weight : 700;
+	letter-spacing : 1.2px;
+	padding-top : 30px;
+	text-decoration : underline;
+	text-decoration-color : yellow;	
+}	
+#home-gallery #firsth4 {
+	background-color :black;
+	color :white;
+	min-height:100px; 
+	line-height:50px;
+	padding:bottom: 8px;
+	transform : translateY(160px);
+}
+#twoPic {
+	min-height : 30vh;
+}
+#home-cont2 h5{
+	border-bottom : 8px solid transparent;
+	margin : 8px;
+}
+#construct-cont4 {
+	font-weight : 700;
+	font-size : 62px;
+	margin-top : -50px;
+	margin-bottom : 0px;
+	background-color : #e8e8e8;
+}
+#construct-cont4 h2{
+	padding : 30px;
+	margin-top : 20px;
+	text-align :center ;
+}
+#tombs-contact h3 {
+	text-align : center;
+	color :orange;
+	background-color :#274b4eb3;
+	transform : translateX(-80px);
+}
+.divider3 {
+	min-height : 23vh;
+	background-color :orange;
+	flex-direction : column;
+	font-weight : 700;
+	font-style : italic;
+	border-radius : 50px;
+}
+.divider p {
+	font-size : 42px;
+	letter-spacing : 4px;
+	font-weight :700;
+	margin-left : 60px;
+	line-height : 18vh;
+}
+#tombs-cont2 .flexy  p {
+	font-size : 20px;
+	text-align:left !important;
+}
+#tombs-cont3 h2 {
+	font-family : assistant;
+	font-size : 36px;
+	letter-spacing : 1.5px;
+	text-align :center;
+	margin : 40px 40px 10px 40px;
+}
+#tombs-cont3 article aside h6{
+	font-size : 62px;
+	font-family :castellar ;
+	font-weight : 700; 
+	height : 100px;
+	line-height : 110px;
+	text-align :center;
+}
+#tombs-cont3 .disclosure p {
+	font-size : 14px;
+	display :block;
+}
+#tombs-cont3 .disclosure h4 {
+	margin-bottom : 30px;
+	text-decoration : underline;
+}
+#construct-cont2 h1 {
+	text-align :center;
+	font-size : 52px;
+	color : white;
+	font-weight : 700;
+	font-family :castellar;
+	transform : translate(80px,220px)  skew(-15deg);
+}
+#whyCHoos h1 {
+	text-align :center ;
+	font-family : assistant;
+	font-size : 72px;
+	margin : -20px 0px 30px 0px;
+	padding-bottom : 30px;
+}
+#arc-About h1 ,#archiFirst h1 {
+	font-weight : 700;
+	font-family :assistant;
+	letter-spacing : 1.3px;
+}
+#archiFirst h1 {
+	color :orange;
+}
+#arc-About h5 {
+	color :orange;
+	font-weight : 700;
+}
+#archiFirst h5 , #archiFirst p{
+	font-weight : 700;
+}
+#consult h1 {
+	background-color : orange;
+	padding : 1%;
+	font-size : 72px;
+	font-family : assistant;
+	color :white;
+}
+#consult h2 , #consult h3 {
+	text-align :center;
+	color :orange;
+	font-weight : 700;
+	font-family : castellar;
+}
+#variety h2 {
+	color :orange;
+	font-weight : 700;
+}
+#consult h3 {
+	padding-bottom : 20px;
+}
+#cont-cont1 aside h3 ,#tombs-contact aside h5 {
+	cursor : pointer !important;
+	transition : all 0.8s ease;
+}
+#twoPic h2 , #twoPic h3 {
+		font-style : italic;
+		font-family : assistant;
+		letter-spacing : 1.5px;
+		font-weight : 700;
+		font-size : 200%;
+}
+#consult h2 {
+	padding-top : 10px;
+}
+#construct-cont1 aside .contact a {
+	text-decoration : underline orange;
+	cursor : pointer;
+	margin : 0px 15px;
+	transition : all 0.5s ease;
+}
+#alumiProducts h1 {
+	font-weight : 700;
+	margin : 20px;
+	font-family : assistant;
+	font-size : 62px;
+	font-style : italic;
+}
+#alumiProducts h2 {
+	padding : 3%;
+	font-style : italic;
+	text-decoration : underline;
+}
+#tombs-gallery h1 {
+	font-family : assistant ;
+	color : orange ;
+	font-weight : 300;
+	margin : 20px;
+	padding-bottom : 20px;
+}
+#consult .column a {
+	color : black
+}
+footer div h3 {
+	margin : 25px;
+}
+.constr-caro-p {
+		text-align :center;
+	}
+/* =======================================  SECTIONS ==================== */
+#home-cont1 {
+	padding-top : 20px;
+	background-color : white;
+	margin-bottom : 50px;
+	background-color : #e8e8e84d;
+}
+#home-cont2 {
+	text-align :center;
+}	
+#home-cont3  {
+/*	background : url('images/grindering2.jpg') no-repeat; */
+background-color : black;
+	background-size :cover ;
+	width : 100vw;
+	padding : 5% 0%; 
+}
+#homeBig-pic {
+	background : url('images/grindering2.jpg') no-repeat, rgba(0,0,0,0.7);
+	background-size : cover;
+	color:white;
+	padding-top : 20px;
+	padding-bottom : 20px;
+	filter : brightness(85%);
+}
+#home-cont4 {
+	padding: 2% 0%;
+	background-color : #2727274d;
+}
+#archiFirst {
+	min-height : 70vh;
+	flex-direction : column;
+	background-color : #f5f5f5;
+}
+#fiveStep {
+	border-top : 2px solid black;
+	padding : 40px 5px;
+	background-color : rgba(0,0,0,0.8);
+	color :white;
+}
+#arc-About {
+	background-color :#f5f5f5;
+	padding :3% 0px;
+}
+#consult {
+	padding-bottom : 3%;
+}
+#tombs-cont1 {
+	background-color : rgba(0,0,0,0.9);
+	background-size : cover;
+	background-position : left top;
+	color :white;
+	width : 100%;
+	min-height : 70vh; 
+	display : flex;
+	justify-content :center;
+	align-items :center;
+	position : relative;
+	animation : backgroundPic 6s cubic-bezier(0.43, 0.54, 0.75, 0.72) forwards;
+	border-bottom : 40px solid black;
+}
+.overlay {
+	position :absolute;
+	top : 0px;
+	left : 0px;
+	background-color : rgba(0,0,0, 0.1);
+	width : 100%;
+	height : 100%;
+}
+#tombs-cont2 {
+	min-height : 90vh;
+	width : 100%;
+	padding-bottom: 20px;
+	margin-top : -40px;
+	margin-bottom : 40px;
+}
+#tombs-cont3 {
+	margin-top : 30px;
+	/*		background-color : #f9f9f9;		*/
+	background-color : #f5f5f5;
+	padding : 20px 0px;
+}
+
+#tombs-gallery {
+	background-color : #f5f5f5;
+	padding : 2%;
+}
+#tombs-contact {
+	background : url("images/stones.jpg") no-repeat;
+	background-size : cover;
+	background-attachment :fixed;
+	width : 100%;
+	min-height : 80vh;
+	display :flex;
+	justify-content :center;
+	align-items :center;
+	padding-bottom : 30px;
+}
+#construct-cont1{
+	min-height : 90vh;
+	display :flex;
+	justify-content :center;
+	align-items :center;
+	position :relative;
+	padding-bottom : 20px;
+	background : url("images/helmet.jpg");
+}
+#construct-cont2 {
+	min-height : 90vh;
+	position :relative;
+	top : 0px ;
+	left : 0px;
+	margin-bottom : 45px;
+	border : 8px solid black;
+	background : url("images/blast.jpg") no-repeat;
+	background-size :cover;
+	background-position :top center;
+	background-color :orange;
+	background-blend-mode : multiply;
+}
+#contact-cont1 {
+	min-height : 20vh;
+	padding-top : 2%;
+	text-align :center;
+}
+#cont-cont1 {
+	min-height : 70vh;
+	border-bottom : 7px solid orange;
+	position : relative;
+}
+#cont-cont1 article {
+	margin : 10px 0px;
+	display : flex;
+	flex-direction : column;
+	justify-content : space-around;
+}
+
+#cont-cont1 .article {
+	background-color :black;
+	color : white;
+	font-size : 250%
+}
+#alumiProducts {
+	text-align :Center;
+	padding-top : 20px;
+	background-image : linear-gradient(359deg,#f3d979, #ff9800);
+}
+#divdier2 {
+	width : 80vw;
+	height : 8vh;
+	margin: 0% auto;
+	background-color :orange;
+	display : none;
+}
+.divider3-wrapper {
+		background-color :black;
+		padding-left : 25px;
+}
+#home-gallery {
+	/* background-color : rgba(232,232,232,0.7); */
+	margin-top : -30px;
+	min-height : 1000px;
+	position : relative;
+}
+#openingHours {
+	background: url(images/stones.jpg) no-repeat;
+    background-size: cover;
+	padding : 3%;
+	background-attachment: fixed;
+}
+#home-gallery #container {
+	position: absolute;
+	top : 53%;
+	left : 50%;
+	box-shadow : 15px 15px 15px #503000;
+	transform : translate(-50%, -50%);
+}
+#socilLinks {
+	height : 100px;
+	background-color :orange;
+	width : 100%;
+	margin : 0%;
+}
+.whiteCont {
+	background-color : white;
+	width : 100%;
+	height : 500px;
+}
+.greyCont  {
+	background-color :black;
+	width : 100%;
+	min-height : 600px;
+}
+#variety {
+	padding : 30px 0px  10px 0px;
+}
+footer {
+	background-color :black;
+	width : 100vw;
+	margin-top : -10px;
+	bottom : 0px;
+	border-top : 3px solid white;
+}
+.wrapper {
+	display :flex;
+	width : 100%;
+	padding: 1%;
+}
+.wrapper div {
+	border: 5px solid black;
+	width : 32%;
+	margin : 0% auto;
+	display :flex;
+	justify-content : center;
+	align-items : center;
+	background-color : white;
+}
+.gradiated {
+	width : 100%;
+	padding : 20px;
+	background-image : linear-gradient(160deg, orange, #ffffff00,orange);
+	box-shadow : 4px 13px 25px black;
+}
+.wrapper div:nth-child(1){
+	flex-grow:1;
+	
+}.wrapper div:nth-child(3){
+	flex-grow:1;
+}
+.wrapper div:nth-child(2){
+	flex-grow:2;
+	display :flex;
+}
+#motto {
+	min-height : 20vh;
+	width : 100%;
+}
+footer .wrap {
+	color :white;
+	width: 100vw;
+	display : flex;
+	justify-content :space-between;
+	padding : 0 20px;
+}
+footer aside, footer article {
+	width : 50%;
+	display :flex;
+	flex-direction :column;
+	align-items :center;
+}
+
+ /* ================================================================= */
+ 
+ /* ===================  SUB SECTIONS =============================== */
+#navbarSupportedContent ul li:nth-child(2){
+	min-width : 217px;
+}
+#navbarSupportedContent ul li:nth-child(3){
+	min-width : 185px;
+}
+#home-cont1 article {
+	display :flex;
+	flex-direction :column;
+	align-self : center;
+	align-items :center;
+	text-align :left;
+	background-color :white;
+	padding : 2%;
+}
+.number-tomb {
+	width : 100% ;
+	min-height : 25vh;
+	position : relative;
+	margin-top : -60px;
+}
+.number-tomb .headingss {
+	width : 380px ;
+	min-height : 100%;
+	position : absolute;
+	right : 20px;
+	border : 10px solid white;
+	background-color : orange;
+	color :white;
+	font-weight : 800;
+	letter-spacing : 1.5px;
+	display :flex;
+	flex-direction :column;
+	justify-content : center;
+	align-items :center;
+}
+#home-cont2 .row {
+	background-color :#fdf9f9 !important;
+	box-sizing :border-box !important;
+	margin-bottom : 8px;
+	
+}
+#home-cont2 .box {
+	background-color : #e8e8e8;
+	padding : 2%;
+}
+#home-cont2 aside {
+	background-color :#fff !important;
+	padding : 2%;
+	border-bottom : 8px solid transparent;
+}
+#home-cont3 .container-fluid{
+	color :white;
+	display :flex;
+	flex-direction :column !important;
+	justify-content : center !important;
+	align-items :center !important;
+}
+#home-cont3 aside {
+	width : 75%;
+	height : 399px;
+	background-color : white;
+	color : black;
+	margin : 0% auto;
+	border-radius : 8px;
+	display :flex;
+	flex-direction : column;
+	justify-content :center;
+	align-items :center;
+}
+#home-cont3 aside p:nth-child(1){
+	font-size : 24px;
+	font-weight : 600;
+	margin : 20px;
+}
+#tombs-contact .aside {
+	background-color : white;
+	min-height : 40vh;
+	width : 30%;
+	font-size : 32px;
+	font-weight : 700px;
+	text-align :center;
+	margin : 5px 5px 20px 5px;
+	padding : 2%;
+	border : 10px solid orange;
+	display :flex;
+	flex-direction :column;
+	align-items :center;
+	justify-content : space-between;
+}
+#construct-cont1 .div {
+	min-height : 100px;
+	display :flex;
+	flex-direction : column;
+	align-items :center;
+	text-align :center;
+	justify-content :space-around;
+}
+#construct-cont2 aside {
+	position :absolute;
+	bottom : -30px;
+	left : 20px;
+	height : 200px;
+	text-align :center;
+	width  : 300px;
+	color : white;
+	border : 10px solid #e8e8e8;
+	background-color : #a04f0000;
+}
+
+#construct-cont2 article img{
+	position :absolute;
+	top : 0px;
+	right : 0px;
+	text-align :center;
+	width  : 130px;
+	border : 10px solid orange;
+}
+#tombs-cont2 .flexy:nth-child(2) {
+	flex-direction :column;
+	font-weight : 400;
+	align-items :flex-start;
+}
+#tombs-contact .row{
+	align-items : flex-end !important;
+}
+#tombs-contact aside{
+	text-align :center;
+	background-color :white;
+	justify-content: flex-end;
+	cursor : pointer;
+	min-height : 60px;
+	margin : 10px;
+}
+#variety .variety {
+	flex-direction :column;
+}
+#variety article {
+	padding-top : 1%;
+	display :flex;
+	flex-direction : column;
+	justify-content :center;
+	align-items : flex-start;
+ }
+#construct-cont1  .article {
+	background-color :#27272712;
+	display :flex;
+	flex-direction : column;
+	padding-top : 30px;
+	justify-content : center;
+	align-items :center;
+	font-weight : 700;
+}	
+#tombs-cont3 article {
+	display :flex;
+	justify-content : space-around;
+	background-color : #ffa5004a;
+}
+
+#tombs-cont3 article .a {
+	background : url("images/AZ/thumbnails/optionA.jpg") no-repeat ;
+	background-position : center center;background-size : cover;
+}
+#tombs-cont3 article .b {
+	background : url("images/AZ/thumbnails/optionB.jpg") no-repeat ;
+	background-position : center center;background-size : cover;
+}
+#tombs-cont3 article .c {
+	background : url("images/AZ/thumbnails/optionC.jpg") no-repeat ;
+	background-position : center center;background-size : cover;
+}
+#tombs-cont3 article .d {
+	background : url("images/AZ/thumbnails/optionD.jpg") no-repeat ;
+	background-position : center center;background-size : cover;
+}
+#tombs-cont3 article .e {
+	background : url("images/AZ/thumbnails/optionE.jpg") no-repeat ;
+	background-position : center center;background-size : cover;
+}
+#tombs-cont3 article .f{
+	background : url("images/AZ/thumbnails/optionF.jpg") no-repeat ;
+	background-position : center center;background-size : cover;
+}
+#tombs-cont3 article .g {
+	background : url("images/AZ/thumbnails/optionG.jpg") no-repeat ;
+	background-position : center center;background-size : cover;
+}
+
+#tombs-cont3 article aside {
+	height : 160px ;
+	width : 80%;
+	margin-top : 50px;
+	flex-direction : column;
+	border : 3px solid orange;
+	position : relative;
+	background-position : center center;
+	background-size : cover;
+}
+#tombs-cont3 article .option {
+	position :absolute;
+	top : -46px;
+	border-radius : 50%;
+	width : 100px;
+	border : 5px solid black;
+	background-color :#f5f5f5;	
+}
+#tombs-cont3 .disclosure {
+	margin : 30px auto;
+	padding-top : 20px;
+	width : 70%;
+	font-style :itelic;
+	text-align :center;
+	flex-direction : column;
+	background-color :white;
+	border-radius : 0px 0px 55% 55% ;
+	border : 5px double orange;
+}
+#tombs-gallery .button{
+	width : 100%;
+	margin : 20px 0px;
+	display :flex;
+}
+#contact-cont1 .aside:nth-child(2), #contact-cont1 .aside:nth-child(3) {
+	border-left : 5px solid black;
+}
+#home-project aside , #home-project article {
+	height : 50%;
+	width : 100%;
+}
+#home-project article {
+	background-color : orange;
+}
+#openingHours article {
+	border : 15px solid #274b4eb3;
+	box-shadow : 15px 22px 15px black;
+}
+#home-project aside {
+	background-color : black;
+}
+#homeBig-pic aside {
+	flex-direction : column;
+	padding : 2% 0px;
+}
+#homeBig-pic .archi{
+	background : url("images/plann.jpg") ;
+}
+#homeBig-pic .constr{
+		background : url("images/helmet.jpg") ;
+}
+#home-project .content {
+	position : absolute;
+	top : 50%;
+	left : 50%;
+	width : 90%;
+	height : 50vh;
+	background-color :green;
+	transform  :translate(-50%,-50%);
+}
+#construct-cont1 aside {
+	flex-direction : column;
+}
+#construct-cont1 aside .contact div {
+	display :flex;
+	align-items :center;
+}
+#construct-cont1 .contact {
+	border : 5px solid black;
+	background-color :black;
+	color :white;
+	width : 100%;
+}
+#construct-cont1 .deco {
+	height : 100%;
+	z-index : -15;
+	width :60%;
+	padding-bottom : 3px;
+	border-bottom : black 2px solid;
+	position :absolute;
+	background-color : orange;
+}
+#home-gallery .row {
+	background-color :rgba(255,169,12,0.9)!important;
+	padding : 2%;
+}
+#home-gallery .aside {
+	border-bottom : 10px solid #e8e8e8 !important;
+}
+#construct-cont1 article{
+	background-color : white;
+}
+
+#construct-cont1 article section{
+	margin-top : -10px;
+}
+#construct-cont1 article aside{
+	background-color : orange;
+	margin : 2% 0% 0% 0%;
+	
+}
+#construct-cont1 article div {
+	box-shadow : 10px 8px 15px black;
+	transition : all 0.8s ease-in-out;
+}
+.addShdow {
+	box-shadow : 10px 8px 15px black;
+}
+#whyCHoos .designBuid {
+	margin : 20px auto;
+	background-color : orange;
+	max-width : 380px;
+	padding : 0.5% 0px;
+	text-align :center;
+	border-radius : 15px;
+	font-weight : 700;
+}
+#whyCHoos aside , #whyCHoos article {
+	height : 160px;
+}
+#whyCHoos .button {
+	width : 100%;
+	display :flex;
+	margin-bottom : 30px;
+}
+#openingHours article aside div {
+	height : 160px;
+	border : 3px solid orange;
+	font-size : 150%;
+	display :flex;
+	justify-content : center;
+	align-items :center;
+	flex-direction : column;
+}
+#archiFirst aside {
+	flex-direction : column;
+	align-items : flex-start;
+}
+#archiFirst aside:nth-child(1){
+	align-items : flex-end;
+}
+#fiveStep aside {
+	height : 140px;
+	text-align :center;
+	flex-direction : column;
+}
+#consult article aside aside {
+	box-shadow : 10px 20px 10px black;
+	height : 100px;
+	margin : 10px 0px; 
+	transition : all 0.8s ease-in-out;
+	cursor : pointer;
+}
+#tombs-contact aside {
+	box-shadow : 10px 20px 10px black;
+	transition : all 0.8s ease-in-out;
+	cursor : pointer;
+}
+#fiveStep article {
+	height : 138px;
+	width : 70%;
+	color : white;
+	flex-direction :column;
+	background-color : black;
+	font-weight : 700;
+	font-size : 41px;
+	margin-left : 0%;
+}
+#motto .motto aside {
+	background-color : orange;
+	width : 90%;
+	border-radius : 8px;
+	text-align : center;
+	margin :auto;
+	line-height : 8vh;
+}
+#motto .motto {
+	background-color : black ;
+	width : 100%;
+	height : 20vh;
+	display :flex;
+}
+#fiveStep .five {
+	font-size : 82px;
+	font-family :castellar;
+	color : orange;
+	padding :1%;
+	font-weight : 700;
+}
+.divider , .styly {
+	height : 20vh;
+	display :flex;
+	justify-content :space-around;
+	align-items : center;
+}
+.divi-holder p , .styly p{
+	font-size : 46px;
+}
+.firstP {
+	font-weight:700;font-style:italic;text-decoration :underline;
+}
+.orange {
+	background-color :orange;
+}
+.makeblack {
+	background-color : black;
+	color :white;
+	
+}
+.querionsM {
+	color :black;
+	font-size : 92px;
+	font-style : italic:
+}
+.category-tombs {
+	color : orange;
+	font-style : italic;
+	font-size : 40px;
+}
+.make-orange {
+	color :orange;
+	font-weight : 700;
+}
+footer ul {
+	padding : 5px 0px 0% 0%;
+	width : 100%;
+}
+footer ul li {
+	list-style : none;
+	margin : 3px;
+	padding : 0%;
+ }
+footer ul a{
+	color : white;
+	display :block;
+	width : 100%;
+	letter-spacing : 8px ;
+	font-weight : 500;
+	font-size : 20px;
+	text-align :center;
+	 background-color :black;
+ }
+ #home-cont4 .adress {
+	 display :flex;
+	 justify-content : center;
+	 flex-direction : column;
+	 align-items :center;
+	 background-color : rgba(255,152,0,1.1);
+	 color :white;
+	 font-weight : 600;
+	 font-size : 20px;
+ }
+  
+#home-cont4 form {
+	  background-color :white;
+	  padding : 4%;
+	  font-weight : 700;
+	  font-size : 18px;
+	display :flex;
+	flex-direction : column;
+	justify-content : spae-around;
+	text-transform :uppercase;
+  }
+#home-cont4 form .form-group{
+	margin : 10px 10px 20px 10px !important;
+	
+}
+  footer aside div {
+	  display :flex;
+	  justify-content :space-around;
+	  margin : 15px;
+	  width : 60%;
+	  height : 40px;
+	  line-height : 40px;
+	  padding-left : 20px;
+	  background-color : orange;
+  }
+  footer article div a {
+	color :white;
+	width : 380px;
+	height : 40px;
+  }
+   footer article ul li {
+	   margin : 15px;
+   }
+   .footer-credits {
+		display :flex;
+		justify-content :space-around;
+		font-weight : 600;
+		font-size : 21px;
+		background-color :orange;
+		color :white;
+		width : 100vw;
+   }
+    .footer-credits  a {
+		font-size : 28px;
+		font-style : italic;
+		text-decoration :underline;
+	}
+	#onactive {
+		background-color : black !important;
+		color : white !important;
+		transition : 0.7s;
+		border-radius : 0px;
+		letter-spacing : 2px;
+		border : 2px solid orange !important;
+	}
+.underline {
+	height :10px;
+	background-color : orange ;
+	width : 56vw;
+	margin : 0px auto;
+	border-radius : 10px;
+	margin-bottom : 60px;
+}
+.underlineIT {
+	height :10px;
+	background-color : orange ;
+	width : 330px;
+	border-radius : 10px;
+	margin-bottom : 60px;
+}
+.big-art-pic {
+	display : flex;
+	min-height : 310px;
+	width : 100%;
+	margin : 10px auto;
+	background-color :orange;
+	padding : 20px 0px;
+}
+ /* ================================================================================= */
+
+/* ==========vh;======================== IMAGES ======================= */
+
+.fourpic img{
+	 height : 10%;
+}
+
+#home-cont1 img{
+	width : 86%;
+	height : 530px;
+	margin : 5% 4% 2% 8%;
+	border : 6px solid orange;
+	box-shadow : 7px 20px 38px 7px black;
+}
+#home-cont2 img {
+	width : 170px;
+	height : 150px;
+}
+#home-cont3 img {
+	width : 50%;
+	margin-top : 20px;
+	border-radius : 50%;
+}
+#tombs-cont2 .flexy img {
+	width : 70%;
+	height : 428px;
+	border : 15px solid black;
+}
+#twoPic img{
+	border : 10px solid orange;
+	margin :5px 10px 5px 20px;
+	width : 100%;
+	height : 210px;
+	transition : all 1s ease-in-out;
+}
+.big-art-pic img{
+	height : 100% !important;
+	margin : auto;
+	border : 20px solid white;
+}
+#tombs-contact .article {
+	float : right!important;
+}
+#tombs-contact  #feature-pic {
+	position :relative ;
+}
+  #feature-pic h2{
+	transform : translateY(-60%);
+	z-index : 10;
+	text-align : center;
+	background-color :#000000b3;
+	text-decoration : underline ;
+	text-decoration-color : orange;
+	position : absolute;
+	top : 60%;
+	color : white;
+}
+#tombs-contact .icons {
+	width : 40px;
+	margin-bottom : 10px;
+}
+ .feature-pic {
+	width : 370px;
+	height : 448px;
+	border : 25px solid #274b4eb3;
+	box-shadow : 15px 15px 15px black;
+	transform : translateX(13%);
+}
+#tombs-contact p img {
+	width : 40%;
+	border-radius : 50%;
+	margin : 0px;
+	padding : 0px;
+}
+#variety article img {
+	width : 140px;
+	height : 100px;
+}
+#home-gallery .row img {
+	margin : 3%;
+	z-index : -12;
+	width : 40%;
+	cursor : pointer;
+	border : 2px solid black;
+}
+#contact-cont1 img {
+	width : 20%;
+}
+#archiFirst img {
+	width : 100%;
+}
+
+#tombs-gallery .reduce {
+		width : 100% !important;
+}
+.reduce img{
+	transition : all 0.8s ease;
+}
+#construct-cont4 img {
+		width : 250px !important;
+}
+footer div img{
+	width : 40px;
+	height : 40px;
+	border-radius : 40px;
+	left : 150px;
+}
+#homeBig-pic article img {
+	border-right : 10px solid orange;
+	border-bottom : 10px solid orange;
+	border-left : 10px solid black;
+	border-top : 10px solid black;
+}
+#construct-cont1 aside .contact img{
+	border-bottom : 2px solid orange;
+}
+#consult .will {
+	width :503px;
+	height : 520px;
+	margin-left : 20px;
+	border : 10px orange dashed;
+}
+#construct-cont1 .div img{
+	width : 170px;
+	height : 100px;
+	margin : 40px;
+	border : 3px solid orange;
+}
+#tombs-gallery .reduce img{
+	width : 280px;
+}
+#socilLinks img {
+	width : 60px;
+	height : 60px;
+	cursor : pointer;
+	border-radius : 50%;
+	transition : all 0.8s ease;
+}
+#consult article aside aside img {
+	width : 80px;
+	border-radius : 50%;
+	height : 80px;
+}
+#construct-cont4 .reduce {
+	display :flex;
+	justify-content :space-around;
+	margin-bottom : 20px;
+}
+#alumiProducts .hiden {
+		display : none;
+}
+#alumiProducts .row article img{
+		width : 100% !important;
+		height : 360px;
+		border : 8px solid white;
+}
+.reduce img{
+	transition : all 0.8s ease;
+}
+
+#tombs-cont3 article aside img{
+	transition : all 0.4s ease-in-out;
+}
+/* ================================================================================= */
+
+/* ===================================== BUTTONS ======================= */
+#home-cont2 .btn , #variety .btn , #arc-About .btn{
+	margin : 50px !important;
+	border : 1px dotted orange;
+	border-bottom : 10px solid black;
+	transition : 0.8s background ease;
+	font-weight : 800;
+	letter-spacing : 1.3px;
+	background-color :white;
+	color :black;
+}
+.carousel-item button {
+	border-radius : 0%;
+	width : 230px;
+	font-weight : 600;
+}
+.slide-Item2 button {
+	background-color :black;
+	color : orange;
+	font-weight : 700;
+}
+#construct-cont1 button{
+	width : 200px;
+	border-radius : 0%;
+	background-color :black;
+	color :white;
+	font-weight : 700;
+	letter-spacing : 1.3px;
+}
+.divider button {
+	font-size : 18px;
+	font-weight : 700;
+	letter-spacing : 1px;
+	font-family: ;
+	line-height : 58px;
+	background-color : white;
+	border-radius : 60px;
+}
+#home-cont4 .adress button ,#homeBig-pic .orange button ,#homeBig-pic .makeblack button , #archiFirst button {
+	width : 160px;
+	height : 50px;
+	margin : 10px;
+}
+
+#home-cont4 .adress button ,#homeBig-pic .orange button{
+	  background-color :black;
+	  color :white;
+}
+#homeBig-pic .makeblack button , #archiFirst button , #twoPic .btn {
+	 background-color :orange;
+	 color :white;
+}
+#tombs-gallery button, .add-one {
+	border-radius :15px;
+	color :white;
+	width : 220px;
+	background-color : orange;
+	margin : auto;
+}
+#whyCHoos button {
+	border-radius :15px;
+	color :white;
+	width : 220px;
+	background-color : orange;
+	margin : auto;
+}
+.modal-body aside button {
+	border-radius : 8px;
+	background-color : orange;
+	font-weight : 700;
+transition : all 0.8s ease;
+}
+#twoPic #btn {
+	width : 100%;
+	margin : 10px 0px;
+	display : flex;
+	min-height : 15vh;
+}
+#twoPic a {
+		margin :auto;
+}
+/* ================================================================================= */
+
+/* ===================================== HOVER STATES, FOCUS ======================= */
+a:focus ,  button:focus {
+	outline : none;
+	text-decoration : underline;
+}
+.reduce img:hover{
+	transform :scale(1.1);
+}
+#construct-cont1 a {
+	color :white;
+}
+.socialie-icon img:hover {
+	border :5px solid orange;
+}
+#socilLinks img:hover  {
+	transform : scale(0.9);	
+	border : 1px solid black;
+}
+.divider button:hover , .divHov:hover , 
+.carousel-item button:hover,
+#tombs-gallery button:hover, #whyCHoos button:hover {
+	background-color :black;
+	color : white;
+	border : 1px solid orange;
+	letter-spacing : 2px;
+	transition : 0.8s;
+}
+#construct-cont1 button:hover {
+	background-color :white;
+	color :orange;
+	border : 3px solid black;
+	letter-spacing : 2px;
+	transition : 0.8s;
+}
+#cont-cont1 aside h3:hover ,#tombs-contact aside h5:hover {
+	text-decoration : underline orange;
+	letter-spacing :1.5px;
+}
+#home-cont2 .btn:hover , #variety .btn:hover , #arc-About .btn:hover {
+	border : 1px dotted orange;
+	border-bottom : 10px solid orange;
+	transition : 0.8s background ease;
+	background-color :black;
+	color :white;
+	font-weight : 800;
+	letter-spacing : 1.3px;
+	box-shadow : 8px 8px 8px grey;
+}
+#home-cont2 aside:hover {
+	transition : 0.8s border ease;
+	border-bottom : 8px solid orange;
+}
+
+#tombs-cont2 button:hover {
+	background-color :black;
+}
+#home-gallery .row img:hover {
+	transition : all 0.9s ease-in-out;
+	transform :scale(1.1);
+	box-shadow : 5px 5px 8px white;
+	z-index : 12!important;
+}
+#construct-cont1 aside .contact a:hover {
+	transform : scale(0.9);
+	color : orange;
+	text-decoration : underline white;
+}
+
+footer ul a:hover {
+	background-color :white;
+	color : black;
+	transition : all 1s ease-in-out;
+	font-weight : 900;
+	letter-spacing : 5px;
+}
+#home-cont4 .adress button {
+	background-color : black !important;
+	transition : all 0.7s ease-in-out !important;
+}
+form button:hover {
+	background-color :black !important;
+	color : white;
+	border : 1px solid orange !important;
+	letter-spacing : 2px;
+	transition : 0.8s;
+}
+#home-cont4 form button:hover ,  #homeBig-pic .makeblack button:hover ,#archiFirst button:hover , #archiFirst button:hover{
+	background-color : black !important;
+	color :white !important;
+	font-weight : 500!important;
+	border : 3px solid orange !important;
+	transition : all 0.78s ease-in-out !important;
+}
+ #homeBig-pic .makeblack button:hover , , #twoPic .btn:hover {
+	background-color : white !important; 
+	color :black !important;
+ }
+ #twoPic img:hover {
+	 transform :scale(1.2);
+	 z-index : 1000;
+ }
+#home-cont4 .adress .btn:hover, #homeBig-pic .orange button:hover{
+	background-color : white !important;
+	color :black !important;
+	font-weight : 500!important;
+	border : 3px solid black !important;
+	transition : all 0.78s ease-in-out !important;
+}
+
+.slide-Item2 button:hover {
+	background-color :orange;
+}
+#tombs-cont3 article aside a img:hover {
+	border : 2px solid orange;
+	transform :scale(1.1);
+}
+
+/* =============================================================== 
+							ANIMATIONS
+ ====================================== ======== ============ */
+@keyFrames rotateH2 {
+	0% {
+		transform: translateX(-60%);
+	}
+	100% {
+		transform: translateX(0%);
+	}
+}
+@keyFrames backgroundPic {
+	0% {
+		background-position : top left;
+	}
+	50% {
+		background-position : bottom center;
+	}
+	100% {
+		background-position : center center;
+	}
+}
+
+/* =============================================================== */
+
+/* ======================================   MEDIA Q ============ */
+
+@media(max-width : 1085px){
+	#navbarSupportedContent ul li a{
+		min-width : 90px;
+		font-size : 65%;
+	}
+	#navbarSupportedContent ul li{
+		padding : 0%;
+		margin :0%;
+	}
+
+	
+}
+
+@media(max-width : 1000px){
+	#alumiProducts .visible {
+		display : none;
+	}
+	#alumiProducts .hiden {
+		display : block;
+	}
+	#tombs-cont3 .disclosure {
+		border-radius: 0px 0px 5% 5%;
+	}
+}
+
+
+@media(max-width : 798px){
+	.contacts {
+		flex-direction :column;
+		min-height : 18vh;
+	}
+	.contacts p, .contacts a , .contacts img{
+		margin : 1px ;
+		padding : 0px;
+		
+	}
+	.navbar-brand {
+		width : 100px;
+		height : 100px;
+	}
+	.navbar-brand img {
+		width : 70px;
+		margin-top : 10px;
+		height : 70px;
+	}
+	.navbar-toggler {
+		width : 60px;
+		height : 60px;
+	}
+	.divider {
+		display :flex;
+		flex-direction : column;
+		justify-content :space-evenly;
+		padding : 10px;
+
+		border-radius : 30px;
+	}
+	.divider p {
+		font-size : 26px;
+		line-height : 30px;
+		text-align :center;
+		margin :auto;
+	}
+	.divider a {
+		display : none;
+	}
+	.divi-holder {
+		background-color :black;
+		margin-top : 10px;
+		padding : 1px 5px 1px 20px;
+		width : 100%;
+	}
+	#home-cont1 aside {
+		margin:0px 0px 30px 0px;
+		padding : 0% !important;
+	}
+	#home-cont1 img {
+		height : 400px;
+	}
+	#home-cont1 article {
+		padding : 0% !important;
+	}
+	
+	#home-cont1 article h2 {
+		text-align :center;
+		margin-bottom : 20px;
+		padding-right : 50px;
+	}
+	
+	#home-cont1 article {
+		padding-left : 50px;
+		font-size : 26px;
+		background-color :#e8e8e800;
+	}
+	#home-cont3 .col-md-4 {
+		margin : 10px;
+		
+	}
+	#tombs-cont1 h2 {
+		font-size : 42px;
+		line-height : 52px;
+	}
+	.divider3 h1, .divider3 h3 {
+		font-size : 150%;
+	}
+	#tombs-contact {
+		padding-top : 30px;
+	}
+	.hides {
+		display : none !important;
+		background-color :yellow;
+	}
+	footer .wrap{
+		display :flex;
+		flex-direction :column !important;
+	}
+	footer aside, footer article{
+		width : 100%;	
+		display : flex;
+		flex-direction : column ;
+		align-items :center;
+	}
+	.footer-credits {
+		flex-direction :column;
+		align-items :center;
+		padding : 10px 0px;
+	}
+	.carousel-control-prev, .carousel-control-next {
+		width : 60px;
+		height : 40px;
+		position : absolute;
+		top : 50%;
+		background-color :black;
+	}
+	.slide-Item1 h1 {
+		font-size : 270%;
+	}
+	#variety .row div {
+		display : flex;
+		align-items : center;
+		justify-content : center;
+		flex-direction : column;
+	}
+	#variety .variety .row {
+		display : flex;
+		flex-direction : row ;
+	}
+	#variety .variety .row article  {
+		width : 50%;
+	}
+	#home-cont1 img {
+		width : 100%;
+		margin : 5px auto;
+	}
+
+	#home-gallery {
+		margin-bottom : 60px;
+	}
+	#home-cont1 article, #arc-About {
+		text-align :center;
+	}
+	#homeBig-pic {
+		margin-top : 60px;
+	}
+	#homeBig-pic aside {
+		display : none;
+	}
+	.number-tomb {
+		transform : translate(-25%,30%);
+		margin-bottom : 55px;
+	}
+	#tombs-cont2 img {
+		width : 105% !important;
+		margin-bottom : 20px;
+	}
+	.gradiated {
+		margin-left : 2px;
+	}
+	.disclosure {
+		border-radius : 15px !important;
+		padding : 1% !important;
+	}
+	#alumiProducts .row article img{
+		width : 100% !important;
+		height : 360px;
+		border : 8px solid white;
+		margin : 8px 5px 20px 2px !important;
+	}
+	#construct-cont1 .contact .row {
+		display : flex;
+		justify-content:space-around;
+		margin : 5px;
+	}
+	#construct-cont1 .contact .row img {
+		border-radius : 50%;
+	}
+	#construct-cont1 aside a {
+		margin-bottom : 30px;
+	}
+	#construct-cont2 aside , #construct-cont2 article {
+		display : none;
+	}
+	#construct-cont2 h1 {
+		transform : translate(5px,220px) skew(-15deg);;
+		font-size : 48px;
+	}
+	#cont-cont1  .article {
+		position : absolute;
+		top : 52%;
+		text-align : center;
+		left : 10px;
+		background: rgba(0,0,0,0.7);
+		font-weight : 700;
+		padding : 1%;
+	}
+	
+	
+	#socilLinks {
+		margin-top : -1%;
+	}
+	#footer {
+		margin-top : -2%;
+	}
+	#consult .will {
+		width :auto;
+		height : auto;
+	}
+	#tombs-cont3 .disclosure {
+		border-radius: 0px 0px 55% 55%;
+	}
+
+}
+
+@media(min-width :480px){
+
+	#alumiProducts .flexy .visible {
+		display : inline;
+	}
+	.navbar-light .navbar-toggler {
+		width : 60px;
+		height : 60px;
+	}
+}
+@media(max-width :560px){
+	#twoPic img{
+		width : 91%;
+		height : 180px;
+	}
+	#motto .motto aside h2 {
+		font-size : 30px;
+	}
+	#alumiProducts h1 {
+		font-size : 42px;
+	}
+	.big-art-pic {
+		padding : 5px 0px;
+	}
+	.big-art-pic img{
+		width : 90% !important;
+		height : 80% !important;
+		border : 20px solid white;
+	}
+	.ekko-lightbox-container>div.ekko-lightbox-item {
+		width : 90%;
+	}
+	#tombs-cont3 article aside img {
+		max-width : 350px;
+		height : 150px;
+	}
+}
+
+@media(max-width : 380px){
+	
+	.variety .orange:nth-child(2) {
+		transform : translateY(12px);
+	}
+	.variety .orange:nth-child(1) {
+		transform : translateY(-9px);
+	}
+	.variety .makeblack:nth-child(2) {
+		padding : 5% 0%;
+	}
+	.variety {
+		background-color : black;
+	}
+	#construct-cont2 {
+		min-height : 63vh;
+		display :flex;
+		width : 100%;
+	}	
+	#construct-cont2 h1 {
+		transform: translate(-63px,220px) skew(-15deg);
+		font-size: 35px;
+	}
+
+	
+	#tombs-cont1 .tombh2 {
+		width : 360px;
+		margin-left : -18px;
+	}
+	.number-tomb {
+		transform: translate(0%,35%);
+		margin-bottom: 68px;
+	}
+	.disclosure {
+		width: 100% !important;
+	}
+	.disclosure p {
+		font-size: 18px!important; 
+		line-height: 22px !important;
+	}
+	#tombs-gallery .row {
+		margin-left: 0px !important;
+	}
+	#tombs-contact .article {
+		margin-left : 30px !important;
+	}
+	#tombs-contact h3 {
+		margin : 0px !important;
+    transform: translateX(-15px);
+	}
+	#tombs-contact .column{
+		transform :translateX(-30px);
+	}
+	#tombs-contact .feature-pic {
+		transform :translateX(-2%);
+	}
+	.slide-Item2 p {
+	font-size : 17px!important;
+	}
+	#alumiProducts article{
+		padding-left : 8px !important;
+	}
+	#alumiProducts .img {
+		width : 160% !important;
+	}
+	.carousel-item h1 {
+		font-size : 42px !important;
+		text-align : center !important;
+		font-style : italic;
+	}
+	
+}
+
+@media(max-width : 320px){
+	footer article div a {
+		max-width : 300px;
+	}
+	 #tombs-cont3 article aside img{
+		 max-width: 179px;
+		height: 150px;
+	 }
+}
+
+ /* ======================================================================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================================================================================== */
+
+
+
+/* ===================================== JAVASCRIPT "App.js file" ======================= */
+
+.openn {
+	background-color : orange !important;
+	width : 50px;
+	height : 50px;
+	border : none !important;
+	display :flex;
+	border-radius :50%;
+	
+}
+.openn-icon {
+	background-color :white ;
+	margin :auto;
+}
+
+
+
+.disable:hover  {
+	border : red;
+}
+.notVisible, .hiddenEl {
+	display : none;
+}
+
+#consult article aside aside:hover , #tombs-contact aside:hover {
+	letter-spacing : 2px;
+	transform : scale(1.1);
+}
+
+
+#home-project {
+	height : 100vh;
+	width : 100%;
+	position : relative;
+}
+
+.darkerOrange {
+	background-color :#ef6c00;
+}
+.otherOrange {
+	background-color :#ff9800 ;
+}
+.lighterOrange {
+	background-color :#ffb74d ;
+}
+#openForm .modal-content .modal-body,
+.options .modal-content .modal-body,
+#Construction-gallery .modal-content .modal-body,
+#Tombstones-gallery .modal-content .modal-body,
+#aluminiums-gallery .modal-content .modal-body,
+#Architectural-gallery .modal-content .modal-body {
+	transform : translateX(-50%);
+}
+
+.modal-content .modal-footer ,.modal-content .modal-header{
+	background-color :orange !important;
+}
+
+.modal-content .modal-footer button{
+	background-color : black !important;
+	color : white;
+	font-weight : 700;
+	transition : all 0.8s ease-in-out;
+}
+.modal-content .modal-header button:hover{
+	color : red !important;
+}
+.modal-content .modal-footer button:hover{
+	background-color :white !important;
+	color :black  !important;
+	border-top : dotted 3px orange;
+	letter-spacing : 2px;
+}
+.modal-body aside button:hover {
+	background-color : black;
+	border : 3px dotted white;
+	color :orange ;
+	letter-spacing : 2px;
+}
+#optionA img , #optionG img{
+	width : 212%;
+}
+#openForm .modal-content .modal-body {
+	transform : translateX(0%) !important;
+}
+
+
+
+
+.addAnimi {
+	animation : animi 2s ease-in infinite ;
+}
+
+@keyFrames animi {
+	0% {
+		background-color : black;
+		color :white;
+	}
+	100% {
+		background-color : white;
+		color :black;
+	}
+}
+
+#consult .remove {
+	pointer-events : none;
+	box-shadow : none;
+
+	transform : translateY(10px);
+}
+
+.slide-Item2 {
+	animation : bg 1.5s ease-in forwards;
+}
+
+
+.slide-Item2 h1{
+		transform : translate(99%, 100%) scale(0.2);
+		animation : head1 2s ease-in-out forwards 0.5s;
+		color : white;
+		padding : 2px;
+		background-color : rgba(0,0,0,0.7);
+		text-align :center;
+	}
+	.slide-Item2 p , .slide-Item2 h2{
+		transform : scale(0.5);
+		animation : head2 2.7s ease-in-out forwards;
+	}
+	.slide-Item2 a{
+		transform : translateX(-230%) scale(0.6);
+		animation : anchor 3s ease-in-out forwards;
+	}
+	
+	@keyframes bg {
+		0%{
+			background : url()
+		}
+		80% {
+			transform : translate(-10%, -88%) scale(0.2);
+		}
+		100% {
+			transform : translate(0%,0%) scale(1);
+		}
+	}
+	
+	@keyframes head1 {
+		0%{
+			transform : translate(99%,100%) scale(0.2);
+		}
+		80% {
+			transform : translate(-10%, -88%) scale(0.2);
+		}
+		100% {
+			transform : translate(0%,0%) scale(1);
+		}
+	}
+	@keyframes head2 {
+		0%{
+			transform : scale(0.5);
+		}
+		80% {
+			transform : scale(0.8);
+		}
+		100% {
+			transform : scale(1);
+		}
+	}
+	@keyframes anchor {
+		0%{
+			transform : translateX(-230%) scale(0.6);
+		}
+		80% {
+			transform : translateX(10%) scale(1.2);
+		}
+		100% {
+			transform : translateX(0%) scale(1);
+		}
+	}
+	
+.slide-Item2 .carosel-wrapper p {
+	background-color : orange;
+	color :white !important; 
+	padding : 3px;
+}
+.slide-Item2 h1 {
+	font-style : italic;
+}
+#alumiProducts ul {
+	list-style : url("images/windoors/logo.jpg");
+	text-align : left;
+	font-size : 32px;
+	font-style : italic;
+	letter-spacing : 1.8px;
+}
+#alumiProducts ul li {
+	text-decoration : underline;
+	text-decoration-color : white;
+	font-family : assistant;
+	margin-bottom : 2px;
+	font-weight : 600;
+}
+#alumiProducts article {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.material-icons {
+		font-size : 61px !important;
+}
+
+.ekko-lightbox a span {
+	color : orange;
+	font-weight : 800;
+	font-size : 65px;
+}
+
+
+
+

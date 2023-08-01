@@ -1,0 +1,193 @@
+*{
+	margin : 0px;
+	padding : 0px;
+	box-sizing :border-box;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: url('../../assets/thumbs/watch.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: #0000008c;
+    height: 100%;
+	padding-top : 3%;
+}
+#watch-wrapper,
+ .menu-cont, 
+ .alarm-Cont {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000000e0;
+    border: 13px solid #a7780e;
+}
+.ringing {
+    margin: 40px auto;
+    font-size: 52px;
+    color: white;
+    font-weight: 700;
+	font-style: italic;
+}
+
+#watch-wrapper p {
+    margin: auto;
+    width: 80%;
+    background-color: #234246;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 21px;
+    font-size: 42px;
+    font-weight: 700;
+    border-radius: 37px;
+}
+input {
+	height: 40px;
+	width : 160px;
+	text-align :center;
+}
+
+.buttons {
+	margin-top : 30px;
+	display :flex;
+	width : 80%;
+	align-items :center;
+	justify-content :center;
+}
+
+.buttons button {
+	cursor : pointer;
+	height : 50px;
+	width : 160px;
+	margin : 5px;
+	font-weight : 700;
+	font-size : 13px;
+	transition : all 0.6s ease-in-out;
+	border-radius : 8px;
+	background-color : black;
+	color : #dfdf03;
+	box-shadow : 3px 3px 3px #698c90;
+}
+
+.set {
+	pointer-events : none;
+}
+
+
+
+/* ==============================================
+		FOCUS < ACTIVE AND HOVER STATES
+============================================== */
+
+.buttons button:focus {
+	outline :none;
+}
+.buttonize:hover  {
+	background-color : blcak;
+	color :white;
+}
+.cont-button:hover {
+	background-color : #c8e445;
+}
+.buttons button:hover {
+	background-color : #698c90;
+	box-shadow : 3px 3px 3px black;
+	letter-spacing : 1.8px;
+	color : white;
+}
+#watch-wrapper button:hover {
+	letter-spacing : 2px;
+	background-color : black!important;
+	color : white;
+	border-bottom : 5px solid yellow;
+}
+
+/* ==============================================
+		JAVASCRIPT DYNAMIC STYLES
+============================================== */
+
+.columnize {
+	flex-direction :column;
+	align-items :center;
+	padding: 50px 0px;
+}	
+	
+.events {
+	pointer-events : none;
+}
+.events-class {
+	pointer-events : none;
+	background-color : grey !important;
+	cursor : load;
+}
+
+
+#watch-wrapper button {
+	width : 210px;
+	height :45px;
+	border-radius : 8px;
+	cursor : pointer;
+	outline : none;
+	font-size : 16px;
+	margin-top : 5px;
+	font-family : assistant;
+	font-style: italic;
+	font-weight : 800;
+	transition : all ease-in;
+}
+.stayVisible {
+    width: 29px;
+    top: 122px;
+    z-index: 10;
+    border-radius: 45%;
+    position: absolute;
+    background: #ffb100f7;
+}		
+.brightningBtn {
+	background-color : #b1bd39 !important;
+	color: black !important;
+	letter-spacing : 1.5px;
+}
+
+.timesUp {
+	animation : timesUp 0.2s ease infinite forwards; 
+}
+
+@keyframes timesUp {
+	
+	0% {
+		transform : translate(-5px, -3px);
+	}
+	50% {
+		transform : translate(5px, 3px);
+	}
+	100% {
+		transform : translate(-5px, -3px);
+	}
+}
+
+
+@media(max-width : 1298px){
+	.buttons {
+		flex-direction : column;
+	}
+	.buttons button {
+		height : 50px;
+		width : 160px;
+	}
+}

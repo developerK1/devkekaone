@@ -1,0 +1,33 @@
+#slide-Item1 {
+	border-top : 5px solid white;
+}
+#slide-Item1 aside {
+	background-color : orange;
+	width : 100%;
+	color : white;
+	height : 10%0%;
+	
+}
+#slide-Item1 article {
+	background-color : black;
+	color :white;
+	width : 100%;
+	height : 10%0%;
+}
+
+#slide-Item1 aside h2{
+	animation : head2 4s ease-in-out fowards;
+	transform : translateX(-100%);
+}
+
+@keyframes head2 {
+	0%{
+		transform : translateX(-100%);
+	}
+	50%{
+		transform : translateX(-30%);
+	}
+	100%{
+		transform : translateX(00%);
+	}
+}

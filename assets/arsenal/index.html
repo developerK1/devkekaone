@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="EI=egde">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kekaone Maoba</title>
+	<style>
+		#projects aside {
+			width : 180px;
+			height : 180px;
+			background-color :grey;
+			border : 3px solid black;
+			margin : 12px;
+			color :white;
+			transition :all 2s ease-in-out;
+		}
+		#row {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		h4 {
+			font-size : 42px;
+		}
+		img {
+			display :none;
+			visibility : hidden;
+		}
+		@keyframes disappear {
+			0% {
+				opacity : 1;
+			}50% {
+				opacity : 0.5;
+			}100% {
+				opacity : 0;
+				display :none;
+				visibility : hidden;
+			}
+		}
+		@keyframes appear {
+			0% {
+				opacity : 0;
+			}50% {
+				opacity : 0.5;
+			}100% {
+				opacity : 1;
+			}
+		}
+		.seperate {
+			width : 100%;
+			height : 40vh;
+			display :flex;
+		}
+		.seperate h3 {
+			margin : auto;
+		}
+	</style>
+</head>
+<body>
+
+<!-- Portfolio Gallery Grid -->
+<div id="myBtnContainer">
+  <button class="btn" onclick="showAll()"> Show all</button>
+  <button class="btn" onclick="showPhp('php')">PHP & MySQL</button>
+  <button class="btn" onclick="showNodejs('nodejs')"> Node JS</button>
+  <button class="btn" onclick="showFullStack('full-stack')">Full Stack</button>
+  <button class="btn" onclick="showVanilla('vannila')">Vannila JS</button>
+  <button class="btn" onclick="showDesigns('designs')">Designs</button>
+</div>
+
+<section id="projects">
+<div class="row" id="row">
+  <aside class="column vannila">
+    <div class="content">
+      <img src="javascript.png" alt="Mountains" style="width:100%">
+      <h4>vannila</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </aside>
+  <aside class="column vannila">
+    <div class="content">
+      <img src="javascript.png" alt="Lights" style="width:100%">
+      <h4>vannila</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+	</aside>
+  <aside class="column vannila">
+    <div class="content">
+      <img src="javascript.png" alt="Nature" style="width:100%">
+      <h4>vannila</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+	</aside>
+<!-- ==================================
+			DESDIGNS
+=================================== -->
+  <aside class="column designs">
+    <div class="content">
+      <img src="mongo.png" alt="Car" style="width:100%">
+      <h4>designs</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div></aside>
+  <aside class="column designs">
+    <div class="content">
+      <img src="mongo.png" alt="Car" style="width:100%">
+      <h4>designs</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+</aside>
+<!-- ==================================
+			PHP & MySQL
+=================================== -->
+  <aside class="column php">
+    <div class="content">
+      <img src="bootstrap.png" alt="People" style="width:100%">
+      <h4>php</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div></aside>
+  <aside class="column php">
+    <div class="content">
+      <img src="bootstrap.png" alt="People" style="width:100%">
+      <h4>php</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div></aside>
+  <!-- ==================================
+			NODE JS
+=================================== -->
+  <aside class="column nodejs">
+    <div class="content">
+      <img src="nodejs.png" alt="People" style="width:100%">
+      <h4>nodejs</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div></aside>
+  <aside class="column nodejs">
+    <div class="content">
+      <img src="nodejs.png" alt="People" style="width:100%">
+      <h4>nodejs</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div></aside>
+  <aside class="column nodejs">
+    <div class="content">
+      <img src="nodejs.png" alt="People" style="width:100%">
+      <h4>nodejs</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div></aside>
+    <!-- ==================================
+			FULL STACK
+=================================== -->
+  <aside class="column full-stack">
+    <div class="content">
+      <img src="php.png" alt="People" style="width:100%">
+      <h4>full-stack</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div></aside>
+  <aside class="column full-stack">
+    <div class="content">
+      <img src="php.png" alt="People" style="width:100%">
+      <h4>full-stack</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div></aside>
+  <aside class="column full-stack">
+    <div class="content">
+      <img src="php.png" alt="People" style="width:100%">
+      <h4>full-stack</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div></aside>
+<!-- END GRID -->
+</div>
+</section>
+<aside class="seperate"><h3>SEPERATION SPACE</h3></aside>
+
+
+<section id="test-anime">
+<div>
+
+</section>
+
+<script src="app.js"></script>
+<body>
+</html>

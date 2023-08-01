@@ -1,0 +1,358 @@
+/* ====================================
+            VARIABLES
+====================================  */
+/* ====================================
+            HEADER
+====================================  */
+#hero-port {
+  min-height: 110vh;
+  padding-bottom: 1%;
+  position: relative;
+  text-align: center;
+}
+#hero-port .hero-first {
+  width: 100%;
+  min-height: 100%;
+}
+#hero-port .hero-first #hero-first {
+  background-color: #060b13;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  transition: background-color 2s ease-in-out !important;
+}
+#hero-port .hero-first #hero-first aside {
+  width: 100%;
+  height: 400px;
+  margin: auto 0px;
+  display: flex;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20px;
+  font-family: fantasy;
+}
+#hero-port .hero-first #hero-first aside h1 {
+  font-size: 5.6rem;
+  letter-spacing: 2px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 900;
+  margin-top: 14px;
+  transition: all 0.6s ease-in;
+}
+#hero-port .hero-first #hero-first aside h2 {
+  font-size: 7.2rem;
+  letter-spacing: -3px;
+  line-height: 44px;
+  font-weight: 900;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  transition: all 0.6s ease-in;
+}
+#hero-port .hero-first #hero-first aside h4 {
+  font-size: 6.9rem;
+}
+#hero-port .hero-first #hero-first aside button {
+  height: 67px;
+  width: 219px;
+  border: none;
+  border-bottom: 8px solid orangered;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.6117647059);
+  color: orangered;
+  margin: 50px 0px;
+  font-size: 22px;
+  font-family: fantasy;
+  letter-spacing: 1.1px;
+  transition: all 0.7s ease-in-out;
+}
+#hero-port .hero-first #hero-first article {
+  position: relative;
+  display: none;
+}
+#hero-port img {
+  width: 100%;
+  height: 100%;
+}
+#hero-port #arsenal {
+  display: none;
+  transform: translateY(0px);
+  transition: all 0.8s ease-in;
+  padding: 0px !important;
+}
+#hero-port #arsenal h3 {
+  transform: translateY(-450px);
+}
+#hero-port #arsenal aside {
+  width: 100%;
+  border-radius: 35px;
+  margin: 10px auto;
+  color: #636363;
+}
+#hero-port .link-box {
+  width: 247px;
+  height: 12vh;
+  font-size: 24px;
+  background-color: #ff5e00;
+  color: white;
+  line-height: 12vh;
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+  margin: 10px;
+  font-weight: 700;
+  box-shadow: 2px 5px 11px rgba(255, 193, 7, 0.7882352941);
+}
+#hero-port #arsenal h3 {
+  font-size: 1.75rem;
+  background: rgba(255, 255, 255, 0.7294117647);
+  padding: 5px;
+  margin: 0px auto;
+  width: 403px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  color: #000000;
+  transition: all 0.7s ease-in;
+}
+#hero-port #hero-img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50;
+}
+#hero-port #hero-img img {
+  height: 100%;
+  width: 100%;
+  border: 15px solid orange;
+  border-radius: 50%;
+}
+#hero-port #my-arsenal {
+  width: 800px;
+  margin: auto;
+  background-color: aqua;
+  background-image: linear-gradient(260deg, rgba(0, 0, 0, 0.8588235294), #ff9800);
+  box-shadow: 2px 0px 15px 6px #262421;
+  margin-bottom: -195px;
+}
+#hero-port #my-arsenal .carousel-item .flexy-cen {
+  height: 20vh;
+  justify-content: space-evenly;
+}
+#hero-port #my-arsenal ol li {
+  width: 35px;
+  height: 35px;
+  background-color: rgba(255, 94, 0, 0.831372549) !important;
+  opacity: 1 !important;
+}
+#hero-port #my-arsenal .subjects {
+  height: 330px;
+  padding: 10px;
+  position: relative;
+}
+#hero-port #my-arsenal h4 {
+  font-size: 1.5rem;
+  color: orange;
+  text-shadow: 4px 3px 2px black;
+  font-size: 53px;
+}
+#hero-port #my-arsenal h6 {
+  font-size: 1rem;
+  color: white;
+  font-weight: 700;
+  text-decoration: underline;
+  -webkit-text-decoration-color: orange;
+          text-decoration-color: orange;
+  text-decoration-thickness: 4px;
+  font-size: 20px;
+  margin: 8px;
+  color: yellow;
+}
+
+/* =================================================
+                    ABOUT SECTION
+=================================================== */
+#about {
+  margin: 50px auto 10px;
+}
+#about .container {
+  border: none;
+  min-height: 80vh;
+}
+#about .first {
+  border-left: 15px solid #ff5e00;
+  border-bottom: 20px solid;
+  border-right: 15px solid black;
+}
+#about .second {
+  border-left: 15px solid black;
+  border-bottom: 20px solid #b14608;
+  border-right: 15px solid #ff5e00;
+}
+#about .third {
+  border-left: 15px solid #ff5e00;
+  border-bottom: 20px solid;
+  border-right: 15px solid black;
+}
+#about h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  text-shadow: 1px 3px 1px #3F51B5;
+  color: #FF9800;
+  font-size: 42px;
+  text-decoration: underline;
+  margin: 50px 0px 28px 0px;
+  /* text-align: center; */
+}
+/* ====================================================
+                    DIVIDER SECTION
+===================================================== */
+#divider {
+  width: 100%;
+  height: 40vh;
+  background-color: rgb(5, 15, 60);
+  margin-top: -194px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#divider .first {
+  width: 80%;
+  height: 80px;
+  background-color: #ff5e00;
+  border-radius: 15px;
+}
+#divider .second {
+  width: 60%;
+  height: 65px;
+  background-color: black;
+  border-radius: 10px;
+}
+#divider .third {
+  width: 40%;
+  height: 25px;
+  background-color: #ff5e00;
+  border-radius: 5px;
+}
+
+/* ====================================================
+                    PROJECT SECTION
+===================================================== */
+#project {
+  text-align: center;
+}
+#project h2 {
+  font-size: 2.3rem;
+  color: #dca807;
+  text-shadow: 2px 1px 1px #000000;
+  font-weight: 800;
+  font-family: castellar;
+  margin: 8px;
+}
+
+/* ====================================================
+                    CV TAMPLATE SECTION
+===================================================== */
+#tamplate {
+  width: 100%;
+  border-top: 5px solid red;
+  min-height: 100vh;
+  display: none;
+}
+#tamplate aside {
+  height: 100%;
+}
+#tamplate .side-bar {
+  width: 40%;
+  background-color: orange;
+  transition: all 0.5s ease-in-out;
+}
+#tamplate .side-bar .flexy-col {
+  width: 100%;
+}
+#tamplate .contents {
+  width: 60%;
+  background-color: #163944;
+  height: 100vh;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+#tamplate h3 {
+  width: 111%;
+  transform: translateX(22px);
+  border-radius: 12px;
+  background-color: #000000;
+  color: white;
+  height: 8vh;
+  font-weight: 700;
+  line-height: 8vh;
+  text-align: center;
+  border-left: 2px double white;
+  border-top: 2px double white;
+  border-bottom: 2px double white;
+}
+#tamplate article {
+  display: flex !important;
+}
+#tamplate article div {
+  justify-content: space-around;
+}
+#tamplate article div .flexy-col {
+  justify-content: space-around;
+}
+
+/*
+    CONTRUCTION SECTIONS
+*/
+#constructor {
+  width: 100%;
+  min-height: 100vh;
+  padding: 2% 0%;
+  background-color: #000000;
+  color: white;
+}
+#constructor .flexy-col {
+  align-items: flex-start;
+  text-align: left;
+}
+#constructor .flexy-col .web-contr {
+  font-size: 43px;
+  text-shadow: 5px 2px 3px orange;
+  color: white;
+}
+#constructor .sum-about #tech {
+  margin-top: 30px !important;
+}
+#constructor .sum-about h3 {
+  font-size: 1.75rem;
+  margin: 8px 0px;
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: Assistant;
+  color: orange;
+  text-shadow: 2px 2px 1px black;
+}
+#constructor .sum-about aside {
+  height: 12vh;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+#constructor .sum-about .btn-wrapper {
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+#constructor .sum-about .btn-wrapper button {
+  cursor: pointer;
+  width: 130px;
+  height: 51px;
+  font-weight: 500;
+  outline: none;
+  border: 6px dotted #000000;
+  background-color: orange;
+  transition: all 0.6s ease-in-out;
+  box-shadow: 2px 3px 3px 7px #875102;
+}/*# sourceMappingURL=dev.css.map */

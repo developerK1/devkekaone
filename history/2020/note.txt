@@ -1,0 +1,66 @@
+three packages
+
+R6 500
+report generator
+-emails
+-complains
+-update recent new section
+-Dashboard admin
+-gallary update
+-on site map direction direct
+-speed optimize
+-social icons
+-solcial links to social platforms
+-testimonial reviews
+-testinonial section
+
+R3200
+report generator
+-emails
+-complains
+-gallery
+-map itergration
+- email
+-seo In page
+-social icons
+-testinonial section
+
+
+
+<section id="" class="container-fluid">
+    <div class="row">
+        <article class="col-lg-3 col-md-3">
+
+        </article>
+    </div>
+</section>
+
+
+
+<section id="" class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <article class="col-lg-3 col-md-3">
+
+            </article>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+colors 
+grey   #f8f8f8
+brow orange    #dd9843
+
+
+
+
+
+GOOGLE ONTS 
+kaushan script
